@@ -68,7 +68,7 @@
 		CGFloat sizeOfTiles = ((max < 512.0f) ? 512.0f : 1024.0f);
 		self.tileSize = CGSizeMake(sizeOfTiles, sizeOfTiles);
 	}
-	return self;
+	return self;dddfdfd
 }
 
 - (void)dealloc {
