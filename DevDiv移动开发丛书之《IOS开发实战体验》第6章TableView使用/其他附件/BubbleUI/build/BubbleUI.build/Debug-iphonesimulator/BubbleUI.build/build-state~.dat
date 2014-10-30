@@ -1,0 +1,429 @@
+TBubbleUI
+v7
+r0
+t293599324.279812
+cCheck dependencies
+cProcessInfoPlistFile /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/Info.plist BubbleUI-Info.plist
+cCompileXIB /Users/weimenglee/Desktop/BubbleUI/MainWindow.xib
+cCompileXIB /Users/weimenglee/Desktop/BubbleUI/BubbleUIViewController.xib
+cCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_bottom_left.png bubble_bottom_left.png
+cCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_bottom_middle.png bubble_bottom_middle.png
+cCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_bottom_right.png bubble_bottom_right.png
+cCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_middle_left.png bubble_middle_left.png
+cCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_middle_right.png bubble_middle_right.png
+cCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_top_left.png bubble_top_left.png
+cCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_top_middle.png bubble_top_middle.png
+cCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_top_right.png bubble_top_right.png
+cCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_middle_middle.png bubble_middle_middle.png
+cProcessPCH /var/folders/In/In3362XSFvW5SyIVpq2WsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BubbleUI_Prefix-bdwdkezvmogoewdkyplhjmqdbjeh/BubbleUI_Prefix.pch.gch BubbleUI_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/main.o /Users/weimenglee/Desktop/BubbleUI/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/BubbleUIAppDelegate.o /Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/BubbleUIViewController.o /Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/BubbleUI normal i386
+cGenerateDSYMFile /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app.dSYM /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/BubbleUI
+cTouch /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Users/weimenglee/Desktop/BubbleUI/BubbleUIViewController.xib
+c000000004BCFA8DD0000000000005C65
+t1271900381
+s23653
+
+N/Users/weimenglee/Desktop/BubbleUI/BubbleUI_Prefix.pch
+c000000004BCFA70D00000000000000B9
+t1271899917
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIAppDelegate.h
+c000000004BCFA70D00000000000001E5
+t1271899917
+s485
+i<UIKit/UIKit.h>
+
+N/Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIAppDelegate.m
+c000000004BCFA70D00000000000002A8
+t1271899917
+s680
+i"BubbleUIAppDelegate.h"
+i"BubbleUIViewController.h"
+
+N/Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIViewController.h
+c000000004BCFA8C600000000000001C3
+t1271900358
+s451
+i<UIKit/UIKit.h>
+
+N/Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIViewController.m
+c000000004BCFC04A00000000000024CD
+t1271906378
+s9421
+i"BubbleUIViewController.h"
+
+N/Users/weimenglee/Desktop/BubbleUI/MainWindow.xib
+c000000004BCFA70D0000000000002657
+t1271899917
+s9815
+
+N/Users/weimenglee/Desktop/BubbleUI/bubble_bottom_left.png
+c000000004BCF05A00000000000000259
+t1271858592
+s601
+
+N/Users/weimenglee/Desktop/BubbleUI/bubble_bottom_middle.png
+c000000004BCF05A000000000000000B8
+t1271858592
+s184
+
+N/Users/weimenglee/Desktop/BubbleUI/bubble_bottom_right.png
+c000000004BCF05A000000000000002FD
+t1271858592
+s765
+
+N/Users/weimenglee/Desktop/BubbleUI/bubble_middle_left.png
+c000000004BCF05A0000000000000008D
+t1271858592
+s141
+
+N/Users/weimenglee/Desktop/BubbleUI/bubble_middle_middle.png
+c000000004BCF05A00000000000000074
+t1271858592
+s116
+
+N/Users/weimenglee/Desktop/BubbleUI/bubble_middle_right.png
+c000000004BCF05A0000000000000009B
+t1271858592
+s155
+
+N/Users/weimenglee/Desktop/BubbleUI/bubble_top_left.png
+c000000004BCF05A0000000000000028E
+t1271858592
+s654
+
+N/Users/weimenglee/Desktop/BubbleUI/bubble_top_middle.png
+c000000004BCF05A000000000000000C4
+t1271858592
+s196
+
+N/Users/weimenglee/Desktop/BubbleUI/bubble_top_right.png
+c000000004BCF05A00000000000000297
+t1271858592
+s663
+
+N/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/BubbleUI.LinkFileList
+c000000004BCFC0D90000000000000189
+t1271906521
+s393
+
+N/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/BubbleUIAppDelegate.o
+t1271906524
+s38204
+
+N/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/BubbleUIViewController.o
+t1271906524
+s52060
+
+N/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/main.o
+t1271906524
+s5940
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app
+t1271906524
+s544
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app.dSYM
+t1271906524
+s102
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/BubbleUI
+t1271906524
+s31072
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/BubbleUIViewController.nib
+t1271906523
+s3365
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/Info.plist
+t1271906521
+s597
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/MainWindow.nib
+t1271906523
+s1512
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/PkgInfo
+t1271906521
+s8
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/bubble_bottom_left.png
+t1271906523
+s601
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/bubble_bottom_middle.png
+t1271906523
+s184
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/bubble_bottom_right.png
+t1271906523
+s765
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/bubble_middle_left.png
+t1271906523
+s141
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/bubble_middle_middle.png
+t1271906523
+s116
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/bubble_middle_right.png
+t1271906523
+s155
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/bubble_top_left.png
+t1271906523
+s654
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/bubble_top_middle.png
+t1271906523
+s196
+
+N/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/bubble_top_right.png
+t1271906523
+s663
+
+N/Users/weimenglee/Desktop/BubbleUI/main.m
+c000000004BCFA70D000000000000016A
+t1271899917
+s362
+i<UIKit/UIKit.h>
+
+N/var/folders/In/In3362XSFvW5SyIVpq2WsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BubbleUI_Prefix-bdwdkezvmogoewdkyplhjmqdbjeh/BubbleUI_Prefix.pch.gch
+t1271906523
+s13026768
+
+NBubbleUI-Info.plist
+c000000004BCFA70D000000000000038D
+t1271899917
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies293599321#293599321#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/BubbleUIAppDelegate.o /Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293599324.047617
+e293599324.129852
+r1
+xCompileC
+xbuild/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/BubbleUIAppDelegate.o
+x/Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIAppDelegate.m293599324#293599324#0(0"0(0#0#64"/Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIAppDelegate.m4300911832#1873"    cd /Users/weimenglee/Desktop/BubbleUI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-generated-files.hmap -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-own-target-headers.hmap -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-all-target-headers.hmap -iquote /Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-project-headers.hmap -F/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator -I/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/include -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/DerivedSources/i386 -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/DerivedSources -include /var/folders/In/In3362XSFvW5SyIVpq2WsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BubbleUI_Prefix-bdwdkezvmogoewdkyplhjmqdbjeh/BubbleUI_Prefix.pch -c /Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIAppDelegate.m -o /Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/BubbleUIAppDelegate.o0#
+
+CCompileC build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/BubbleUIViewController.o /Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293599324.109805
+e293599324.235113
+r1
+xCompileC
+xbuild/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/BubbleUIViewController.o
+x/Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIViewController.m: In function '-[BubbleUIViewController tableView:cellForRowAtIndexPath:]':
+o/Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIViewController.m:95: warning: local declaration of 'tableView' hides instance variable
+lSLF07#2@75"Compile /Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIViewController.m293599324#293599324#0(281"/Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIViewController.m: In function '-[BubbleUIViewController tableView:cellForRowAtIndexPath:]':/Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIViewController.m:95: warning: local declaration of 'tableView' hides instance variable1(22@56"Local declaration of 'tableView' hides instance variable293599324#143#138#0(6@67"/Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIViewController.m293599178#95#0#95#0#0"0(0#0#67"/Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIViewController.m4300911832#1879"    cd /Users/weimenglee/Desktop/BubbleUI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-generated-files.hmap -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-own-target-headers.hmap -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-all-target-headers.hmap -iquote /Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-project-headers.hmap -F/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator -I/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/include -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/DerivedSources/i386 -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/DerivedSources -include /var/folders/In/In3362XSFvW5SyIVpq2WsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BubbleUI_Prefix-bdwdkezvmogoewdkyplhjmqdbjeh/BubbleUI_Prefix.pch -c /Users/weimenglee/Desktop/BubbleUI/Classes/BubbleUIViewController.m -o /Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/BubbleUIViewController.o0#
+
+CCompileC build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/main.o /Users/weimenglee/Desktop/BubbleUI/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s293599324.038671
+e293599324.109706
+r1
+xCompileC
+xbuild/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/main.o
+x/Users/weimenglee/Desktop/BubbleUI/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/weimenglee/Desktop/BubbleUI/main.m293599324#293599324#0(0"0(0#0#41"/Users/weimenglee/Desktop/BubbleUI/main.m4300911832#1835"    cd /Users/weimenglee/Desktop/BubbleUI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-generated-files.hmap -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-own-target-headers.hmap -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-all-target-headers.hmap -iquote /Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-project-headers.hmap -F/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator -I/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/include -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/DerivedSources/i386 -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/DerivedSources -include /var/folders/In/In3362XSFvW5SyIVpq2WsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BubbleUI_Prefix-bdwdkezvmogoewdkyplhjmqdbjeh/BubbleUI_Prefix.pch -c /Users/weimenglee/Desktop/BubbleUI/main.m -o /Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/weimenglee/Desktop/BubbleUI/BubbleUIViewController.xib
+s293599321.306348
+e293599323.181360
+r1
+xCompileXIB
+x/Users/weimenglee/Desktop/BubbleUI/BubbleUIViewController.xib
+lSLF07#2@37"CompileXIB BubbleUIViewController.xib293599321#293599323#0(0"0(0#0#61"/Users/weimenglee/Desktop/BubbleUI/BubbleUIViewController.xib4300911832#495"    cd /Users/weimenglee/Desktop/BubbleUI    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/BubbleUIViewController.nib /Users/weimenglee/Desktop/BubbleUI/BubbleUIViewController.xib0#
+
+CCompileXIB /Users/weimenglee/Desktop/BubbleUI/MainWindow.xib
+s293599321.290571
+e293599323.159340
+r1
+xCompileXIB
+x/Users/weimenglee/Desktop/BubbleUI/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib293599321#293599323#0(0"0(0#0#49"/Users/weimenglee/Desktop/BubbleUI/MainWindow.xib4300911832#471"    cd /Users/weimenglee/Desktop/BubbleUI    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/MainWindow.nib /Users/weimenglee/Desktop/BubbleUI/MainWindow.xib0#
+
+CCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_bottom_left.png bubble_bottom_left.png
+s293599323.159483
+e293599323.209867
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BubbleUI.app/bubble_bottom_left.png
+xbubble_bottom_left.png
+lSLF07#2@27"Copy bubble_bottom_left.png293599323#293599323#0(0"0(0#0#57"/Users/weimenglee/Desktop/BubbleUI/bubble_bottom_left.png4300911832#455"    cd /Users/weimenglee/Desktop/BubbleUI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/weimenglee/Desktop/BubbleUI/bubble_bottom_left.png /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app0#
+
+CCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_bottom_middle.png bubble_bottom_middle.png
+s293599323.160731
+e293599323.210111
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BubbleUI.app/bubble_bottom_middle.png
+xbubble_bottom_middle.png
+lSLF07#2@29"Copy bubble_bottom_middle.png293599323#293599323#0(0"0(0#0#59"/Users/weimenglee/Desktop/BubbleUI/bubble_bottom_middle.png4300911832#457"    cd /Users/weimenglee/Desktop/BubbleUI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/weimenglee/Desktop/BubbleUI/bubble_bottom_middle.png /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app0#
+
+CCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_bottom_right.png bubble_bottom_right.png
+s293599323.164439
+e293599323.210402
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BubbleUI.app/bubble_bottom_right.png
+xbubble_bottom_right.png
+lSLF07#2@28"Copy bubble_bottom_right.png293599323#293599323#0(0"0(0#0#58"/Users/weimenglee/Desktop/BubbleUI/bubble_bottom_right.png4300911832#456"    cd /Users/weimenglee/Desktop/BubbleUI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/weimenglee/Desktop/BubbleUI/bubble_bottom_right.png /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app0#
+
+CCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_middle_left.png bubble_middle_left.png
+s293599323.166477
+e293599323.210633
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BubbleUI.app/bubble_middle_left.png
+xbubble_middle_left.png
+lSLF07#2@27"Copy bubble_middle_left.png293599323#293599323#0(0"0(0#0#57"/Users/weimenglee/Desktop/BubbleUI/bubble_middle_left.png4300911832#455"    cd /Users/weimenglee/Desktop/BubbleUI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/weimenglee/Desktop/BubbleUI/bubble_middle_left.png /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app0#
+
+CCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_middle_middle.png bubble_middle_middle.png
+s293599323.178249
+e293599323.216873
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BubbleUI.app/bubble_middle_middle.png
+xbubble_middle_middle.png
+lSLF07#2@29"Copy bubble_middle_middle.png293599323#293599323#0(0"0(0#0#59"/Users/weimenglee/Desktop/BubbleUI/bubble_middle_middle.png4300911832#457"    cd /Users/weimenglee/Desktop/BubbleUI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/weimenglee/Desktop/BubbleUI/bubble_middle_middle.png /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app0#
+
+CCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_middle_right.png bubble_middle_right.png
+s293599323.168749
+e293599323.210917
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BubbleUI.app/bubble_middle_right.png
+xbubble_middle_right.png
+lSLF07#2@28"Copy bubble_middle_right.png293599323#293599323#0(0"0(0#0#58"/Users/weimenglee/Desktop/BubbleUI/bubble_middle_right.png4300911832#456"    cd /Users/weimenglee/Desktop/BubbleUI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/weimenglee/Desktop/BubbleUI/bubble_middle_right.png /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app0#
+
+CCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_top_left.png bubble_top_left.png
+s293599323.170640
+e293599323.213824
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BubbleUI.app/bubble_top_left.png
+xbubble_top_left.png
+lSLF07#2@24"Copy bubble_top_left.png293599323#293599323#0(0"0(0#0#54"/Users/weimenglee/Desktop/BubbleUI/bubble_top_left.png4300911832#452"    cd /Users/weimenglee/Desktop/BubbleUI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/weimenglee/Desktop/BubbleUI/bubble_top_left.png /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app0#
+
+CCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_top_middle.png bubble_top_middle.png
+s293599323.172814
+e293599323.214037
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BubbleUI.app/bubble_top_middle.png
+xbubble_top_middle.png
+lSLF07#2@26"Copy bubble_top_middle.png293599323#293599323#0(0"0(0#0#56"/Users/weimenglee/Desktop/BubbleUI/bubble_top_middle.png4300911832#454"    cd /Users/weimenglee/Desktop/BubbleUI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/weimenglee/Desktop/BubbleUI/bubble_top_middle.png /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app0#
+
+CCpResource build/Debug-iphonesimulator/BubbleUI.app/bubble_top_right.png bubble_top_right.png
+s293599323.176376
+e293599323.215320
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/BubbleUI.app/bubble_top_right.png
+xbubble_top_right.png
+lSLF07#2@25"Copy bubble_top_right.png293599323#293599323#0(0"0(0#0#55"/Users/weimenglee/Desktop/BubbleUI/bubble_top_right.png4300911832#453"    cd /Users/weimenglee/Desktop/BubbleUI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/weimenglee/Desktop/BubbleUI/bubble_top_right.png /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app0#
+
+CGenerateDSYMFile /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app.dSYM /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/BubbleUI
+s293599324.262991
+e293599324.276671
+r1
+xGenerateDSYMFile
+x/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app.dSYM
+x/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/BubbleUI
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/BubbleUI.app.dSYM build/Debug-iphonesimulator/BubbleUI.app/BubbleUI293599324#293599324#0(0"0(0#0#84"/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/BubbleUI4300911832#374"    cd /Users/weimenglee/Desktop/BubbleUI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/BubbleUI -o /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app.dSYM0#
+
+CLd /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/BubbleUI normal i386
+s293599324.235202
+e293599324.262884
+r1
+xLd
+x/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/BubbleUI
+xnormal
+xi386
+lSLF07#2@89"Link /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/BubbleUI293599324#293599324#0(0"0(0#0#0"4300911832#849"    cd /Users/weimenglee/Desktop/BubbleUI    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator -F/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator -filelist /Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/Objects-normal/i386/BubbleUI.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/BubbleUI0#
+
+CProcessInfoPlistFile /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/Info.plist BubbleUI-Info.plist
+s293599321.269044
+e293599321.290483
+r1
+xProcessInfoPlistFile
+x/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/Info.plist
+xBubbleUI-Info.plist
+lSLF07#2@27"Process BubbleUI-Info.plist293599321#293599321#0(0"0(0#0#54"/Users/weimenglee/Desktop/BubbleUI/BubbleUI-Info.plist4300911832#470"    cd /Users/weimenglee/Desktop/BubbleUI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility BubbleUI-Info.plist -genpkginfo /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app/Info.plist0#
+
+CProcessPCH /var/folders/In/In3362XSFvW5SyIVpq2WsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BubbleUI_Prefix-bdwdkezvmogoewdkyplhjmqdbjeh/BubbleUI_Prefix.pch.gch BubbleUI_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s293599323.216963
+e293599324.038575
+r1
+xProcessPCH
+x/var/folders/In/In3362XSFvW5SyIVpq2WsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BubbleUI_Prefix-bdwdkezvmogoewdkyplhjmqdbjeh/BubbleUI_Prefix.pch.gch
+xBubbleUI_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile BubbleUI_Prefix.pch293599323#293599324#0(0"0(0#0#54"/Users/weimenglee/Desktop/BubbleUI/BubbleUI_Prefix.pch4300911832#1730"    cd /Users/weimenglee/Desktop/BubbleUI    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-generated-files.hmap -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-own-target-headers.hmap -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-all-target-headers.hmap -iquote /Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/BubbleUI-project-headers.hmap -F/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator -I/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/include -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/DerivedSources/i386 -I/Users/weimenglee/Desktop/BubbleUI/build/BubbleUI.build/Debug-iphonesimulator/BubbleUI.build/DerivedSources -c /Users/weimenglee/Desktop/BubbleUI/BubbleUI_Prefix.pch -o /var/folders/In/In3362XSFvW5SyIVpq2WsU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/BubbleUI_Prefix-bdwdkezvmogoewdkyplhjmqdbjeh/BubbleUI_Prefix.pch.gch0#
+
+CTouch /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app
+s293599324.276755
+e293599324.279783
+r1
+xTouch
+x/Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app
+lSLF07#2@81"Touch /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app293599324#293599324#0(0"0(0#0#0"4300911832#271"    cd /Users/weimenglee/Desktop/BubbleUI    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/weimenglee/Desktop/BubbleUI/build/Debug-iphonesimulator/BubbleUI.app0#
+

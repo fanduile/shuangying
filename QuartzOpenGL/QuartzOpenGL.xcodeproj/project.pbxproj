@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0216E96214D6D03A002BE6C6 /* realtool.png in Resources */ = {isa = PBXBuildFile; fileRef = 0216E96114D6D03A002BE6C6 /* realtool.png */; };
+		0216E96514D6D8F2002BE6C6 /* Demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0216E96414D6D8F2002BE6C6 /* Demo.png */; };
+		0216E96814D6DA9F002BE6C6 /* Quartz.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0216E96714D6DA9F002BE6C6 /* Quartz.pdf */; };
+		0216E96F14D6E05A002BE6C6 /* AFUIImageReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0216E96E14D6E05A002BE6C6 /* AFUIImageReflection.m */; };
+		0216E97714D6EEE7002BE6C6 /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0216E97614D6EEE7002BE6C6 /* GLView.m */; };
+		0216E97914D6EF10002BE6C6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0216E97814D6EF10002BE6C6 /* OpenGLES.framework */; };
+		0216E97B14D6EF1D002BE6C6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0216E97A14D6EF1D002BE6C6 /* QuartzCore.framework */; };
+		0216E97F14D6FEE7002BE6C6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0216E97D14D6FEE7002BE6C6 /* logo.png */; };
+		0216E98014D6FEE7002BE6C6 /* wenli.png in Resources */ = {isa = PBXBuildFile; fileRef = 0216E97E14D6FEE7002BE6C6 /* wenli.png */; };
+		0223989E14D4ED1100E36769 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0223989D14D4ED1100E36769 /* UIKit.framework */; };
+		022398A014D4ED1100E36769 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0223989F14D4ED1100E36769 /* Foundation.framework */; };
+		022398A214D4ED1100E36769 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022398A114D4ED1100E36769 /* CoreGraphics.framework */; };
+		022398A814D4ED1100E36769 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 022398A614D4ED1100E36769 /* InfoPlist.strings */; };
+		022398AA14D4ED1100E36769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 022398A914D4ED1100E36769 /* main.m */; };
+		022398AE14D4ED1100E36769 /* QuartzOpenGLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 022398AD14D4ED1100E36769 /* QuartzOpenGLAppDelegate.m */; };
+		022398B114D4ED1100E36769 /* QuartzOpenGLMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022398B014D4ED1100E36769 /* QuartzOpenGLMasterViewController.m */; };
+		022398B414D4ED1100E36769 /* QuartzOpenGLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022398B314D4ED1100E36769 /* QuartzOpenGLDetailViewController.m */; };
+		022398B714D4ED1100E36769 /* QuartzOpenGLMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 022398B514D4ED1100E36769 /* QuartzOpenGLMasterViewController.xib */; };
+		022398BA14D4ED1100E36769 /* QuartzOpenGLDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 022398B814D4ED1100E36769 /* QuartzOpenGLDetailViewController.xib */; };
+		022398C514D4F1BB00E36769 /* QuartzBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022398C314D4F1BB00E36769 /* QuartzBaseController.m */; };
+		022398C614D4F1BB00E36769 /* QuartzBaseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 022398C414D4F1BB00E36769 /* QuartzBaseController.xib */; };
+		022398CA14D4F1C800E36769 /* OpenGLBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022398C814D4F1C800E36769 /* OpenGLBaseController.m */; };
+		022398CB14D4F1C800E36769 /* OpenGLBaseController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 022398C914D4F1C800E36769 /* OpenGLBaseController.xib */; };
+		022398D714D4F80400E36769 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 022398D614D4F80400E36769 /* CanvasView.m */; };
+		027C9A2E14D590F300341BB8 /* QuartzShadowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027C9A2C14D590F300341BB8 /* QuartzShadowController.m */; };
+		027C9A2F14D590F300341BB8 /* QuartzShadowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 027C9A2D14D590F300341BB8 /* QuartzShadowController.xib */; };
+		027C9A3314D5911200341BB8 /* QuartzEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027C9A3114D5911100341BB8 /* QuartzEditController.m */; };
+		027C9A3414D5911200341BB8 /* QuartzEditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 027C9A3214D5911100341BB8 /* QuartzEditController.xib */; };
+		027C9A4314D596E000341BB8 /* QuartzImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 027C9A3E14D596E000341BB8 /* QuartzImages.m */; };
+		027C9A4414D596E000341BB8 /* QuartzRendering.m in Sources */ = {isa = PBXBuildFile; fileRef = 027C9A4014D596E000341BB8 /* QuartzRendering.m */; };
+		027C9A4514D596E000341BB8 /* QuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 027C9A4214D596E000341BB8 /* QuartzView.m */; };
+		027C9A4814D596FA00341BB8 /* ShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 027C9A4714D596FA00341BB8 /* ShadowView.m */; };
+		027C9A5414D69CC100341BB8 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 027C9A5314D69CC000341BB8 /* GradientView.m */; };
+		027C9A5814D69D5600341BB8 /* QuartzGradientController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027C9A5614D69D5600341BB8 /* QuartzGradientController.m */; };
+		027C9A5914D69D5600341BB8 /* QuartzGradientController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 027C9A5714D69D5600341BB8 /* QuartzGradientController.xib */; };
+		027C9A6114D6CE4D00341BB8 /* PictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 027C9A6014D6CE4C00341BB8 /* PictureView.m */; };
+		027C9A6514D6CE6100341BB8 /* QuartzPictureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027C9A6314D6CE6000341BB8 /* QuartzPictureController.m */; };
+		027C9A6614D6CE6100341BB8 /* QuartzPictureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 027C9A6414D6CE6000341BB8 /* QuartzPictureController.xib */; };
+		027C9A6A14D6CE7800341BB8 /* QuartzPDFController.m in Sources */ = {isa = PBXBuildFile; fileRef = 027C9A6814D6CE7700341BB8 /* QuartzPDFController.m */; };
+		027C9A6B14D6CE7800341BB8 /* QuartzPDFController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 027C9A6914D6CE7700341BB8 /* QuartzPDFController.xib */; };
+		027C9A6E14D6CE8400341BB8 /* PDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 027C9A6D14D6CE8400341BB8 /* PDFView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0216E96114D6D03A002BE6C6 /* realtool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = realtool.png; sourceTree = "<group>"; };
+		0216E96414D6D8F2002BE6C6 /* Demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Demo.png; sourceTree = "<group>"; };
+		0216E96714D6DA9F002BE6C6 /* Quartz.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Quartz.pdf; sourceTree = "<group>"; };
+		0216E96D14D6E05A002BE6C6 /* AFUIImageReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFUIImageReflection.h; sourceTree = "<group>"; };
+		0216E96E14D6E05A002BE6C6 /* AFUIImageReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUIImageReflection.m; sourceTree = "<group>"; };
+		0216E97514D6EEE7002BE6C6 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		0216E97614D6EEE7002BE6C6 /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLView.m; sourceTree = "<group>"; };
+		0216E97814D6EF10002BE6C6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0216E97A14D6EF1D002BE6C6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0216E97C14D6FCC7002BE6C6 /* ConstantsAndMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantsAndMacros.h; sourceTree = "<group>"; };
+		0216E97D14D6FEE7002BE6C6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		0216E97E14D6FEE7002BE6C6 /* wenli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wenli.png; sourceTree = "<group>"; };
+		0223989914D4ED1100E36769 /* QuartzOpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzOpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0223989D14D4ED1100E36769 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0223989F14D4ED1100E36769 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		022398A114D4ED1100E36769 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		022398A514D4ED1100E36769 /* QuartzOpenGL-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuartzOpenGL-Info.plist"; sourceTree = "<group>"; };
+		022398A714D4ED1100E36769 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		022398A914D4ED1100E36769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		022398AB14D4ED1100E36769 /* QuartzOpenGL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuartzOpenGL-Prefix.pch"; sourceTree = "<group>"; };
+		022398AC14D4ED1100E36769 /* QuartzOpenGLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzOpenGLAppDelegate.h; sourceTree = "<group>"; };
+		022398AD14D4ED1100E36769 /* QuartzOpenGLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzOpenGLAppDelegate.m; sourceTree = "<group>"; };
+		022398AF14D4ED1100E36769 /* QuartzOpenGLMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzOpenGLMasterViewController.h; sourceTree = "<group>"; };
+		022398B014D4ED1100E36769 /* QuartzOpenGLMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzOpenGLMasterViewController.m; sourceTree = "<group>"; };
+		022398B214D4ED1100E36769 /* QuartzOpenGLDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzOpenGLDetailViewController.h; sourceTree = "<group>"; };
+		022398B314D4ED1100E36769 /* QuartzOpenGLDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzOpenGLDetailViewController.m; sourceTree = "<group>"; };
+		022398B614D4ED1100E36769 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuartzOpenGLMasterViewController.xib; sourceTree = "<group>"; };
+		022398B914D4ED1100E36769 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuartzOpenGLDetailViewController.xib; sourceTree = "<group>"; };
+		022398C214D4F1BB00E36769 /* QuartzBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzBaseController.h; sourceTree = "<group>"; };
+		022398C314D4F1BB00E36769 /* QuartzBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzBaseController.m; sourceTree = "<group>"; };
+		022398C414D4F1BB00E36769 /* QuartzBaseController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuartzBaseController.xib; sourceTree = "<group>"; };
+		022398C714D4F1C800E36769 /* OpenGLBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLBaseController.h; sourceTree = "<group>"; };
+		022398C814D4F1C800E36769 /* OpenGLBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLBaseController.m; sourceTree = "<group>"; };
+		022398C914D4F1C800E36769 /* OpenGLBaseController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpenGLBaseController.xib; sourceTree = "<group>"; };
+		022398D514D4F80400E36769 /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		022398D614D4F80400E36769 /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		027C9A2B14D590F300341BB8 /* QuartzShadowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzShadowController.h; sourceTree = "<group>"; };
+		027C9A2C14D590F300341BB8 /* QuartzShadowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzShadowController.m; sourceTree = "<group>"; };
+		027C9A2D14D590F300341BB8 /* QuartzShadowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuartzShadowController.xib; sourceTree = "<group>"; };
+		027C9A3014D5911100341BB8 /* QuartzEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzEditController.h; sourceTree = "<group>"; };
+		027C9A3114D5911100341BB8 /* QuartzEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzEditController.m; sourceTree = "<group>"; };
+		027C9A3214D5911100341BB8 /* QuartzEditController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuartzEditController.xib; sourceTree = "<group>"; };
+		027C9A3D14D596E000341BB8 /* QuartzImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzImages.h; sourceTree = "<group>"; };
+		027C9A3E14D596E000341BB8 /* QuartzImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzImages.m; sourceTree = "<group>"; };
+		027C9A3F14D596E000341BB8 /* QuartzRendering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzRendering.h; sourceTree = "<group>"; };
+		027C9A4014D596E000341BB8 /* QuartzRendering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzRendering.m; sourceTree = "<group>"; };
+		027C9A4114D596E000341BB8 /* QuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzView.h; sourceTree = "<group>"; };
+		027C9A4214D596E000341BB8 /* QuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzView.m; sourceTree = "<group>"; };
+		027C9A4614D596FA00341BB8 /* ShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowView.h; sourceTree = "<group>"; };
+		027C9A4714D596FA00341BB8 /* ShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowView.m; sourceTree = "<group>"; };
+		027C9A5214D69CC000341BB8 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		027C9A5314D69CC000341BB8 /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		027C9A5514D69D5600341BB8 /* QuartzGradientController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzGradientController.h; sourceTree = "<group>"; };
+		027C9A5614D69D5600341BB8 /* QuartzGradientController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzGradientController.m; sourceTree = "<group>"; };
+		027C9A5714D69D5600341BB8 /* QuartzGradientController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuartzGradientController.xib; sourceTree = "<group>"; };
+		027C9A5F14D6CE4B00341BB8 /* PictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureView.h; sourceTree = "<group>"; };
+		027C9A6014D6CE4C00341BB8 /* PictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureView.m; sourceTree = "<group>"; };
+		027C9A6214D6CE6000341BB8 /* QuartzPictureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzPictureController.h; sourceTree = "<group>"; };
+		027C9A6314D6CE6000341BB8 /* QuartzPictureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzPictureController.m; sourceTree = "<group>"; };
+		027C9A6414D6CE6000341BB8 /* QuartzPictureController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuartzPictureController.xib; sourceTree = "<group>"; };
+		027C9A6714D6CE7700341BB8 /* QuartzPDFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzPDFController.h; sourceTree = "<group>"; };
+		027C9A6814D6CE7700341BB8 /* QuartzPDFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzPDFController.m; sourceTree = "<group>"; };
+		027C9A6914D6CE7700341BB8 /* QuartzPDFController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuartzPDFController.xib; sourceTree = "<group>"; };
+		027C9A6C14D6CE8400341BB8 /* PDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFView.h; sourceTree = "<group>"; };
+		027C9A6D14D6CE8400341BB8 /* PDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0223989614D4ED1100E36769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0216E97B14D6EF1D002BE6C6 /* QuartzCore.framework in Frameworks */,
+				0216E97914D6EF10002BE6C6 /* OpenGLES.framework in Frameworks */,
+				0223989E14D4ED1100E36769 /* UIKit.framework in Frameworks */,
+				022398A014D4ED1100E36769 /* Foundation.framework in Frameworks */,
+				022398A214D4ED1100E36769 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0216E96014D6D03A002BE6C6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0216E97D14D6FEE7002BE6C6 /* logo.png */,
+				0216E97E14D6FEE7002BE6C6 /* wenli.png */,
+				0216E96414D6D8F2002BE6C6 /* Demo.png */,
+				0216E96114D6D03A002BE6C6 /* realtool.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0216E96614D6DA9F002BE6C6 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				0216E96714D6DA9F002BE6C6 /* Quartz.pdf */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		0216E97414D6EED7002BE6C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0216E97514D6EEE7002BE6C6 /* GLView.h */,
+				0216E97614D6EEE7002BE6C6 /* GLView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0223988E14D4ED1100E36769 = {
+			isa = PBXGroup;
+			children = (
+				0216E97A14D6EF1D002BE6C6 /* QuartzCore.framework */,
+				0216E97814D6EF10002BE6C6 /* OpenGLES.framework */,
+				0216E96614D6DA9F002BE6C6 /* Files */,
+				0216E96014D6D03A002BE6C6 /* Images */,
+				022398A314D4ED1100E36769 /* QuartzOpenGL */,
+				0223989C14D4ED1100E36769 /* Frameworks */,
+				0223989A14D4ED1100E36769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0223989A14D4ED1100E36769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0223989914D4ED1100E36769 /* QuartzOpenGL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0223989C14D4ED1100E36769 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0223989D14D4ED1100E36769 /* UIKit.framework */,
+				0223989F14D4ED1100E36769 /* Foundation.framework */,
+				022398A114D4ED1100E36769 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		022398A314D4ED1100E36769 /* QuartzOpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				022398C014D4F15300E36769 /* OpenGL */,
+				022398C114D4F15300E36769 /* Quartz2D */,
+				022398AC14D4ED1100E36769 /* QuartzOpenGLAppDelegate.h */,
+				022398AD14D4ED1100E36769 /* QuartzOpenGLAppDelegate.m */,
+				022398AF14D4ED1100E36769 /* QuartzOpenGLMasterViewController.h */,
+				022398B014D4ED1100E36769 /* QuartzOpenGLMasterViewController.m */,
+				022398B514D4ED1100E36769 /* QuartzOpenGLMasterViewController.xib */,
+				022398B214D4ED1100E36769 /* QuartzOpenGLDetailViewController.h */,
+				022398B314D4ED1100E36769 /* QuartzOpenGLDetailViewController.m */,
+				022398B814D4ED1100E36769 /* QuartzOpenGLDetailViewController.xib */,
+				022398A414D4ED1100E36769 /* Supporting Files */,
+			);
+			path = QuartzOpenGL;
+			sourceTree = "<group>";
+		};
+		022398A414D4ED1100E36769 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				022398A514D4ED1100E36769 /* QuartzOpenGL-Info.plist */,
+				022398A614D4ED1100E36769 /* InfoPlist.strings */,
+				022398A914D4ED1100E36769 /* main.m */,
+				022398AB14D4ED1100E36769 /* QuartzOpenGL-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		022398C014D4F15300E36769 /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				0216E97C14D6FCC7002BE6C6 /* ConstantsAndMacros.h */,
+				0216E97414D6EED7002BE6C6 /* Views */,
+				022398C714D4F1C800E36769 /* OpenGLBaseController.h */,
+				022398C814D4F1C800E36769 /* OpenGLBaseController.m */,
+				022398C914D4F1C800E36769 /* OpenGLBaseController.xib */,
+			);
+			path = OpenGL;
+			sourceTree = "<group>";
+		};
+		022398C114D4F15300E36769 /* Quartz2D */ = {
+			isa = PBXGroup;
+			children = (
+				022398D414D4F7DC00E36769 /* Views */,
+				022398C214D4F1BB00E36769 /* QuartzBaseController.h */,
+				022398C314D4F1BB00E36769 /* QuartzBaseController.m */,
+				022398C414D4F1BB00E36769 /* QuartzBaseController.xib */,
+				027C9A2B14D590F300341BB8 /* QuartzShadowController.h */,
+				027C9A2C14D590F300341BB8 /* QuartzShadowController.m */,
+				027C9A2D14D590F300341BB8 /* QuartzShadowController.xib */,
+				027C9A3014D5911100341BB8 /* QuartzEditController.h */,
+				027C9A3114D5911100341BB8 /* QuartzEditController.m */,
+				027C9A3214D5911100341BB8 /* QuartzEditController.xib */,
+				027C9A5514D69D5600341BB8 /* QuartzGradientController.h */,
+				027C9A5614D69D5600341BB8 /* QuartzGradientController.m */,
+				027C9A5714D69D5600341BB8 /* QuartzGradientController.xib */,
+				027C9A6214D6CE6000341BB8 /* QuartzPictureController.h */,
+				027C9A6314D6CE6000341BB8 /* QuartzPictureController.m */,
+				027C9A6414D6CE6000341BB8 /* QuartzPictureController.xib */,
+				027C9A6714D6CE7700341BB8 /* QuartzPDFController.h */,
+				027C9A6814D6CE7700341BB8 /* QuartzPDFController.m */,
+				027C9A6914D6CE7700341BB8 /* QuartzPDFController.xib */,
+			);
+			path = Quartz2D;
+			sourceTree = "<group>";
+		};
+		022398D414D4F7DC00E36769 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0216E96D14D6E05A002BE6C6 /* AFUIImageReflection.h */,
+				0216E96E14D6E05A002BE6C6 /* AFUIImageReflection.m */,
+				027C9A3D14D596E000341BB8 /* QuartzImages.h */,
+				027C9A3E14D596E000341BB8 /* QuartzImages.m */,
+				027C9A3F14D596E000341BB8 /* QuartzRendering.h */,
+				027C9A4014D596E000341BB8 /* QuartzRendering.m */,
+				027C9A4114D596E000341BB8 /* QuartzView.h */,
+				027C9A4214D596E000341BB8 /* QuartzView.m */,
+				022398D514D4F80400E36769 /* CanvasView.h */,
+				022398D614D4F80400E36769 /* CanvasView.m */,
+				027C9A4614D596FA00341BB8 /* ShadowView.h */,
+				027C9A4714D596FA00341BB8 /* ShadowView.m */,
+				027C9A5214D69CC000341BB8 /* GradientView.h */,
+				027C9A5314D69CC000341BB8 /* GradientView.m */,
+				027C9A5F14D6CE4B00341BB8 /* PictureView.h */,
+				027C9A6014D6CE4C00341BB8 /* PictureView.m */,
+				027C9A6C14D6CE8400341BB8 /* PDFView.h */,
+				027C9A6D14D6CE8400341BB8 /* PDFView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0223989814D4ED1100E36769 /* QuartzOpenGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022398BD14D4ED1100E36769 /* Build configuration list for PBXNativeTarget "QuartzOpenGL" */;
+			buildPhases = (
+				0223989514D4ED1100E36769 /* Sources */,
+				0223989614D4ED1100E36769 /* Frameworks */,
+				0223989714D4ED1100E36769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzOpenGL;
+			productName = QuartzOpenGL;
+			productReference = 0223989914D4ED1100E36769 /* QuartzOpenGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0223989014D4ED1100E36769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0223989314D4ED1100E36769 /* Build configuration list for PBXProject "QuartzOpenGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0223988E14D4ED1100E36769;
+			productRefGroup = 0223989A14D4ED1100E36769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0223989814D4ED1100E36769 /* QuartzOpenGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0223989714D4ED1100E36769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022398A814D4ED1100E36769 /* InfoPlist.strings in Resources */,
+				022398B714D4ED1100E36769 /* QuartzOpenGLMasterViewController.xib in Resources */,
+				022398BA14D4ED1100E36769 /* QuartzOpenGLDetailViewController.xib in Resources */,
+				022398C614D4F1BB00E36769 /* QuartzBaseController.xib in Resources */,
+				022398CB14D4F1C800E36769 /* OpenGLBaseController.xib in Resources */,
+				027C9A2F14D590F300341BB8 /* QuartzShadowController.xib in Resources */,
+				027C9A3414D5911200341BB8 /* QuartzEditController.xib in Resources */,
+				027C9A5914D69D5600341BB8 /* QuartzGradientController.xib in Resources */,
+				027C9A6614D6CE6100341BB8 /* QuartzPictureController.xib in Resources */,
+				027C9A6B14D6CE7800341BB8 /* QuartzPDFController.xib in Resources */,
+				0216E96214D6D03A002BE6C6 /* realtool.png in Resources */,
+				0216E96514D6D8F2002BE6C6 /* Demo.png in Resources */,
+				0216E96814D6DA9F002BE6C6 /* Quartz.pdf in Resources */,
+				0216E97F14D6FEE7002BE6C6 /* logo.png in Resources */,
+				0216E98014D6FEE7002BE6C6 /* wenli.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0223989514D4ED1100E36769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022398AA14D4ED1100E36769 /* main.m in Sources */,
+				022398AE14D4ED1100E36769 /* QuartzOpenGLAppDelegate.m in Sources */,
+				022398B114D4ED1100E36769 /* QuartzOpenGLMasterViewController.m in Sources */,
+				022398B414D4ED1100E36769 /* QuartzOpenGLDetailViewController.m in Sources */,
+				022398C514D4F1BB00E36769 /* QuartzBaseController.m in Sources */,
+				022398CA14D4F1C800E36769 /* OpenGLBaseController.m in Sources */,
+				022398D714D4F80400E36769 /* CanvasView.m in Sources */,
+				027C9A2E14D590F300341BB8 /* QuartzShadowController.m in Sources */,
+				027C9A3314D5911200341BB8 /* QuartzEditController.m in Sources */,
+				027C9A4314D596E000341BB8 /* QuartzImages.m in Sources */,
+				027C9A4414D596E000341BB8 /* QuartzRendering.m in Sources */,
+				027C9A4514D596E000341BB8 /* QuartzView.m in Sources */,
+				027C9A4814D596FA00341BB8 /* ShadowView.m in Sources */,
+				027C9A5414D69CC100341BB8 /* GradientView.m in Sources */,
+				027C9A5814D69D5600341BB8 /* QuartzGradientController.m in Sources */,
+				027C9A6114D6CE4D00341BB8 /* PictureView.m in Sources */,
+				027C9A6514D6CE6100341BB8 /* QuartzPictureController.m in Sources */,
+				027C9A6A14D6CE7800341BB8 /* QuartzPDFController.m in Sources */,
+				027C9A6E14D6CE8400341BB8 /* PDFView.m in Sources */,
+				0216E96F14D6E05A002BE6C6 /* AFUIImageReflection.m in Sources */,
+				0216E97714D6EEE7002BE6C6 /* GLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		022398A614D4ED1100E36769 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				022398A714D4ED1100E36769 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		022398B514D4ED1100E36769 /* QuartzOpenGLMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				022398B614D4ED1100E36769 /* en */,
+			);
+			name = QuartzOpenGLMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		022398B814D4ED1100E36769 /* QuartzOpenGLDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				022398B914D4ED1100E36769 /* en */,
+			);
+			name = QuartzOpenGLDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		022398BB14D4ED1100E36769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		022398BC14D4ED1100E36769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		022398BE14D4ED1100E36769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzOpenGL/QuartzOpenGL-Prefix.pch";
+				INFOPLIST_FILE = "QuartzOpenGL/QuartzOpenGL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		022398BF14D4ED1100E36769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzOpenGL/QuartzOpenGL-Prefix.pch";
+				INFOPLIST_FILE = "QuartzOpenGL/QuartzOpenGL-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0223989314D4ED1100E36769 /* Build configuration list for PBXProject "QuartzOpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022398BB14D4ED1100E36769 /* Debug */,
+				022398BC14D4ED1100E36769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		022398BD14D4ED1100E36769 /* Build configuration list for PBXNativeTarget "QuartzOpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				022398BE14D4ED1100E36769 /* Debug */,
+				022398BF14D4ED1100E36769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0223989014D4ED1100E36769 /* Project object */;
+}

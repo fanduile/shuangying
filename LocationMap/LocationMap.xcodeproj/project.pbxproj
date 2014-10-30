@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025BAAD0147B307600E04058 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025BAACF147B307600E04058 /* UIKit.framework */; };
+		025BAAD2147B307600E04058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025BAAD1147B307600E04058 /* Foundation.framework */; };
+		025BAAD4147B307600E04058 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025BAAD3147B307600E04058 /* CoreGraphics.framework */; };
+		025BAADA147B307600E04058 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 025BAAD8147B307600E04058 /* InfoPlist.strings */; };
+		025BAADC147B307600E04058 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 025BAADB147B307600E04058 /* main.m */; };
+		025BAAE0147B307600E04058 /* LocationMapDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 025BAADF147B307600E04058 /* LocationMapDemoAppDelegate.m */; };
+		025BAAE3147B307600E04058 /* LocationMapDemoMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025BAAE2147B307600E04058 /* LocationMapDemoMasterViewController.m */; };
+		025BAAE9147B307600E04058 /* LocationMapDemoMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025BAAE7147B307600E04058 /* LocationMapDemoMasterViewController.xib */; };
+		025BAB17147B331200E04058 /* AnnotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025BAB0C147B331200E04058 /* AnnotationViewController.m */; };
+		025BAB18147B331200E04058 /* AnnotationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025BAB0D147B331200E04058 /* AnnotationViewController.xib */; };
+		025BAB19147B331200E04058 /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025BAB0F147B331200E04058 /* BaseMapViewController.m */; };
+		025BAB1A147B331200E04058 /* BaseMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025BAB10147B331200E04058 /* BaseMapViewController.xib */; };
+		025BAB1B147B331200E04058 /* CoreLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025BAB12147B331200E04058 /* CoreLocationViewController.m */; };
+		025BAB1C147B331200E04058 /* CoreLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025BAB13147B331200E04058 /* CoreLocationViewController.xib */; };
+		025BAB1D147B331200E04058 /* DrawMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025BAB15147B331200E04058 /* DrawMapViewController.m */; };
+		025BAB1E147B331200E04058 /* DrawMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025BAB16147B331200E04058 /* DrawMapViewController.xib */; };
+		025BAB22147B338C00E04058 /* RTLocationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 025BAB21147B338C00E04058 /* RTLocationHelper.m */; };
+		025BAB37147B37AF00E04058 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025BAB35147B37A600E04058 /* MapKit.framework */; };
+		025BAB38147B37AF00E04058 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025BAB33147B379E00E04058 /* CoreLocation.framework */; };
+		025BAB3B147B386500E04058 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 025BAB3A147B386500E04058 /* CustomAnnotation.m */; };
+		025BAB43147B3E8400E04058 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 025BAB42147B3E8400E04058 /* location.png */; };
+		025BAB4B147B429100E04058 /* GMapCtrl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 025BAB4A147B429100E04058 /* GMapCtrl.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		025BAACB147B307600E04058 /* LocationMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		025BAACF147B307600E04058 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		025BAAD1147B307600E04058 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		025BAAD3147B307600E04058 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		025BAAD7147B307600E04058 /* LocationMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocationMap-Info.plist"; sourceTree = "<group>"; };
+		025BAAD9147B307600E04058 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		025BAADB147B307600E04058 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		025BAADD147B307600E04058 /* LocationMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocationMap-Prefix.pch"; sourceTree = "<group>"; };
+		025BAADE147B307600E04058 /* LocationMapDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationMapDemoAppDelegate.h; sourceTree = "<group>"; };
+		025BAADF147B307600E04058 /* LocationMapDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationMapDemoAppDelegate.m; sourceTree = "<group>"; };
+		025BAAE1147B307600E04058 /* LocationMapDemoMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationMapDemoMasterViewController.h; sourceTree = "<group>"; };
+		025BAAE2147B307600E04058 /* LocationMapDemoMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationMapDemoMasterViewController.m; sourceTree = "<group>"; };
+		025BAAE8147B307600E04058 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LocationMapDemoMasterViewController.xib; sourceTree = "<group>"; };
+		025BAB0B147B331200E04058 /* AnnotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationViewController.h; sourceTree = "<group>"; };
+		025BAB0C147B331200E04058 /* AnnotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationViewController.m; sourceTree = "<group>"; };
+		025BAB0D147B331200E04058 /* AnnotationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnotationViewController.xib; sourceTree = "<group>"; };
+		025BAB0E147B331200E04058 /* BaseMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMapViewController.h; sourceTree = "<group>"; };
+		025BAB0F147B331200E04058 /* BaseMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMapViewController.m; sourceTree = "<group>"; };
+		025BAB10147B331200E04058 /* BaseMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseMapViewController.xib; sourceTree = "<group>"; };
+		025BAB11147B331200E04058 /* CoreLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLocationViewController.h; sourceTree = "<group>"; };
+		025BAB12147B331200E04058 /* CoreLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLocationViewController.m; sourceTree = "<group>"; };
+		025BAB13147B331200E04058 /* CoreLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreLocationViewController.xib; sourceTree = "<group>"; };
+		025BAB14147B331200E04058 /* DrawMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawMapViewController.h; sourceTree = "<group>"; };
+		025BAB15147B331200E04058 /* DrawMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawMapViewController.m; sourceTree = "<group>"; };
+		025BAB16147B331200E04058 /* DrawMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawMapViewController.xib; sourceTree = "<group>"; };
+		025BAB20147B338C00E04058 /* RTLocationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTLocationHelper.h; sourceTree = "<group>"; };
+		025BAB21147B338C00E04058 /* RTLocationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTLocationHelper.m; sourceTree = "<group>"; };
+		025BAB33147B379E00E04058 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		025BAB35147B37A600E04058 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		025BAB39147B386500E04058 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		025BAB3A147B386500E04058 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		025BAB42147B3E8400E04058 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		025BAB49147B429000E04058 /* GMapCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMapCtrl.h; sourceTree = "<group>"; };
+		025BAB4A147B429100E04058 /* GMapCtrl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GMapCtrl.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025BAAC8147B307600E04058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025BAB37147B37AF00E04058 /* MapKit.framework in Frameworks */,
+				025BAB38147B37AF00E04058 /* CoreLocation.framework in Frameworks */,
+				025BAAD0147B307600E04058 /* UIKit.framework in Frameworks */,
+				025BAAD2147B307600E04058 /* Foundation.framework in Frameworks */,
+				025BAAD4147B307600E04058 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025BAAC0147B307600E04058 = {
+			isa = PBXGroup;
+			children = (
+				025BAAD5147B307600E04058 /* LocationMap */,
+				025BAACE147B307600E04058 /* Frameworks */,
+				025BAACC147B307600E04058 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		025BAACC147B307600E04058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				025BAACB147B307600E04058 /* LocationMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		025BAACE147B307600E04058 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				025BAB35147B37A600E04058 /* MapKit.framework */,
+				025BAB33147B379E00E04058 /* CoreLocation.framework */,
+				025BAACF147B307600E04058 /* UIKit.framework */,
+				025BAAD1147B307600E04058 /* Foundation.framework */,
+				025BAAD3147B307600E04058 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		025BAAD5147B307600E04058 /* LocationMap */ = {
+			isa = PBXGroup;
+			children = (
+				025BAB40147B3E8400E04058 /* Resources */,
+				025BAB1F147B338C00E04058 /* manager */,
+				025BAADE147B307600E04058 /* LocationMapDemoAppDelegate.h */,
+				025BAADF147B307600E04058 /* LocationMapDemoAppDelegate.m */,
+				025BAAE1147B307600E04058 /* LocationMapDemoMasterViewController.h */,
+				025BAAE2147B307600E04058 /* LocationMapDemoMasterViewController.m */,
+				025BAAE7147B307600E04058 /* LocationMapDemoMasterViewController.xib */,
+				025BAB0A147B32D100E04058 /* demo */,
+				025BAAD6147B307600E04058 /* Supporting Files */,
+			);
+			path = LocationMap;
+			sourceTree = "<group>";
+		};
+		025BAAD6147B307600E04058 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				025BAAD7147B307600E04058 /* LocationMap-Info.plist */,
+				025BAAD8147B307600E04058 /* InfoPlist.strings */,
+				025BAADB147B307600E04058 /* main.m */,
+				025BAADD147B307600E04058 /* LocationMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		025BAB0A147B32D100E04058 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				025BAB49147B429000E04058 /* GMapCtrl.h */,
+				025BAB4A147B429100E04058 /* GMapCtrl.mm */,
+				025BAB0B147B331200E04058 /* AnnotationViewController.h */,
+				025BAB0C147B331200E04058 /* AnnotationViewController.m */,
+				025BAB0D147B331200E04058 /* AnnotationViewController.xib */,
+				025BAB0E147B331200E04058 /* BaseMapViewController.h */,
+				025BAB0F147B331200E04058 /* BaseMapViewController.m */,
+				025BAB10147B331200E04058 /* BaseMapViewController.xib */,
+				025BAB11147B331200E04058 /* CoreLocationViewController.h */,
+				025BAB12147B331200E04058 /* CoreLocationViewController.m */,
+				025BAB13147B331200E04058 /* CoreLocationViewController.xib */,
+				025BAB14147B331200E04058 /* DrawMapViewController.h */,
+				025BAB15147B331200E04058 /* DrawMapViewController.m */,
+				025BAB16147B331200E04058 /* DrawMapViewController.xib */,
+				025BAB39147B386500E04058 /* CustomAnnotation.h */,
+				025BAB3A147B386500E04058 /* CustomAnnotation.m */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		025BAB1F147B338C00E04058 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				025BAB20147B338C00E04058 /* RTLocationHelper.h */,
+				025BAB21147B338C00E04058 /* RTLocationHelper.m */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		025BAB40147B3E8400E04058 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				025BAB41147B3E8400E04058 /* Image */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		025BAB41147B3E8400E04058 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				025BAB42147B3E8400E04058 /* location.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		025BAACA147B307600E04058 /* LocationMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025BAAEF147B307600E04058 /* Build configuration list for PBXNativeTarget "LocationMap" */;
+			buildPhases = (
+				025BAAC7147B307600E04058 /* Sources */,
+				025BAAC8147B307600E04058 /* Frameworks */,
+				025BAAC9147B307600E04058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocationMap;
+			productName = LocationMap;
+			productReference = 025BAACB147B307600E04058 /* LocationMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		025BAAC2147B307600E04058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 025BAAC5147B307600E04058 /* Build configuration list for PBXProject "LocationMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 025BAAC0147B307600E04058;
+			productRefGroup = 025BAACC147B307600E04058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				025BAACA147B307600E04058 /* LocationMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		025BAAC9147B307600E04058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025BAADA147B307600E04058 /* InfoPlist.strings in Resources */,
+				025BAAE9147B307600E04058 /* LocationMapDemoMasterViewController.xib in Resources */,
+				025BAB18147B331200E04058 /* AnnotationViewController.xib in Resources */,
+				025BAB1A147B331200E04058 /* BaseMapViewController.xib in Resources */,
+				025BAB1C147B331200E04058 /* CoreLocationViewController.xib in Resources */,
+				025BAB1E147B331200E04058 /* DrawMapViewController.xib in Resources */,
+				025BAB43147B3E8400E04058 /* location.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		025BAAC7147B307600E04058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025BAADC147B307600E04058 /* main.m in Sources */,
+				025BAAE0147B307600E04058 /* LocationMapDemoAppDelegate.m in Sources */,
+				025BAAE3147B307600E04058 /* LocationMapDemoMasterViewController.m in Sources */,
+				025BAB17147B331200E04058 /* AnnotationViewController.m in Sources */,
+				025BAB19147B331200E04058 /* BaseMapViewController.m in Sources */,
+				025BAB1B147B331200E04058 /* CoreLocationViewController.m in Sources */,
+				025BAB1D147B331200E04058 /* DrawMapViewController.m in Sources */,
+				025BAB22147B338C00E04058 /* RTLocationHelper.m in Sources */,
+				025BAB3B147B386500E04058 /* CustomAnnotation.m in Sources */,
+				025BAB4B147B429100E04058 /* GMapCtrl.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		025BAAD8147B307600E04058 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025BAAD9147B307600E04058 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		025BAAE7147B307600E04058 /* LocationMapDemoMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025BAAE8147B307600E04058 /* en */,
+			);
+			name = LocationMapDemoMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		025BAAED147B307600E04058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		025BAAEE147B307600E04058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		025BAAF0147B307600E04058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocationMap/LocationMap-Prefix.pch";
+				INFOPLIST_FILE = "LocationMap/LocationMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		025BAAF1147B307600E04058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocationMap/LocationMap-Prefix.pch";
+				INFOPLIST_FILE = "LocationMap/LocationMap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025BAAC5147B307600E04058 /* Build configuration list for PBXProject "LocationMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025BAAED147B307600E04058 /* Debug */,
+				025BAAEE147B307600E04058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025BAAEF147B307600E04058 /* Build configuration list for PBXNativeTarget "LocationMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025BAAF0147B307600E04058 /* Debug */,
+				025BAAF1147B307600E04058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 025BAAC2147B307600E04058 /* Project object */;
+}

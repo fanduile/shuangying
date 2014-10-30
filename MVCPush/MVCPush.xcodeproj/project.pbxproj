@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020E67B214B2E3C900653F49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 020E67B014B2E3C900653F49 /* InfoPlist.strings */; };
+		020E67B414B2E3C900653F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E67B314B2E3C900653F49 /* main.m */; };
+		020E67B814B2E3C900653F49 /* MVCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E67B714B2E3C900653F49 /* MVCAppDelegate.m */; };
+		020E67BB14B2E3C900653F49 /* MVCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E67BA14B2E3C900653F49 /* MVCMasterViewController.m */; };
+		020E67C114B2E3C900653F49 /* MVCMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020E67BF14B2E3C900653F49 /* MVCMasterViewController.xib */; };
+		020E67D014B2E47900653F49 /* MVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E67CE14B2E47800653F49 /* MVCViewController.m */; };
+		020E67D114B2E47900653F49 /* MVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020E67CF14B2E47800653F49 /* MVCViewController.xib */; };
+		020E67D514B2E48900653F49 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020E67D314B2E48900653F49 /* PushViewController.m */; };
+		020E67D614B2E48900653F49 /* PushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020E67D414B2E48900653F49 /* PushViewController.xib */; };
+		0216DD5F14BACE9F0003540E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0216DD5E14BACE9F0003540E /* libz.dylib */; };
+		024C217214B42F770038C038 /* MyUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 024C217114B42F770038C038 /* MyUIView.m */; };
+		024C217514B42FA70038C038 /* MyUIViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 024C217414B42FA70038C038 /* MyUIViewDelegate.m */; };
+		024C217914B430030038C038 /* MyUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 024C217714B430030038C038 /* MyUIViewController.m */; };
+		024C217A14B430030038C038 /* MyUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 024C217814B430030038C038 /* MyUIViewController.xib */; };
+		024C217F14B447640038C038 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 024C217D14B447640038C038 /* NotificationViewController.m */; };
+		024C218014B447640038C038 /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 024C217E14B447640038C038 /* NotificationViewController.xib */; };
+		027E3B5814BADDD500C68C03 /* apns-dev-cert.pem in Resources */ = {isa = PBXBuildFile; fileRef = 027E3B4E14BADDD500C68C03 /* apns-dev-cert.pem */; };
+		027E3B5914BADDD500C68C03 /* apns-dev-key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 027E3B4F14BADDD500C68C03 /* apns-dev-key.pem */; };
+		027E3B5A14BADDD500C68C03 /* aps_developer_identity.cer in Resources */ = {isa = PBXBuildFile; fileRef = 027E3B5014BADDD500C68C03 /* aps_developer_identity.cer */; };
+		027E3B5D14BADDD500C68C03 /* RemoteNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 027E3B5514BADDD500C68C03 /* RemoteNotification.m */; };
+		027E3B5E14BADDD500C68C03 /* SSLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 027E3B5714BADDD500C68C03 /* SSLHelper.m */; };
+		027E3B7714BAE7E900C68C03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0216DD5514BACE260003540E /* Foundation.framework */; };
+		027E3B7C14BAE81600C68C03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020E67A714B2E3C900653F49 /* UIKit.framework */; };
+		027E3B7E14BAE81B00C68C03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020E67AB14B2E3C900653F49 /* CoreGraphics.framework */; };
+		027E3B7F14BAE82900C68C03 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 027E3B7314BAE6C400C68C03 /* libcrypto.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		027E3B8014BAE82B00C68C03 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 027E3B7414BAE6C400C68C03 /* libssl.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020E67A314B2E3C900653F49 /* MVCPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		020E67A714B2E3C900653F49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		020E67AB14B2E3C900653F49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		020E67AF14B2E3C900653F49 /* MVCPush-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVCPush-Info.plist"; sourceTree = "<group>"; };
+		020E67B114B2E3C900653F49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		020E67B314B2E3C900653F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		020E67B514B2E3C900653F49 /* MVCPush-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVCPush-Prefix.pch"; sourceTree = "<group>"; };
+		020E67B614B2E3C900653F49 /* MVCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCAppDelegate.h; sourceTree = "<group>"; };
+		020E67B714B2E3C900653F49 /* MVCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCAppDelegate.m; sourceTree = "<group>"; };
+		020E67B914B2E3C900653F49 /* MVCMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVCMasterViewController.h; sourceTree = "<group>"; };
+		020E67BA14B2E3C900653F49 /* MVCMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVCMasterViewController.m; sourceTree = "<group>"; };
+		020E67C014B2E3C900653F49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MVCMasterViewController.xib; sourceTree = "<group>"; };
+		020E67CD14B2E47800653F49 /* MVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCViewController.h; sourceTree = "<group>"; };
+		020E67CE14B2E47800653F49 /* MVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCViewController.m; sourceTree = "<group>"; };
+		020E67CF14B2E47800653F49 /* MVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVCViewController.xib; sourceTree = "<group>"; };
+		020E67D214B2E48900653F49 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		020E67D314B2E48900653F49 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		020E67D414B2E48900653F49 /* PushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PushViewController.xib; sourceTree = "<group>"; };
+		0216DD5514BACE260003540E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0216DD5E14BACE9F0003540E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		024C217014B42F770038C038 /* MyUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIView.h; sourceTree = "<group>"; };
+		024C217114B42F770038C038 /* MyUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIView.m; sourceTree = "<group>"; };
+		024C217314B42FA70038C038 /* MyUIViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIViewDelegate.h; sourceTree = "<group>"; };
+		024C217414B42FA70038C038 /* MyUIViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIViewDelegate.m; sourceTree = "<group>"; };
+		024C217614B430030038C038 /* MyUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIViewController.h; sourceTree = "<group>"; };
+		024C217714B430030038C038 /* MyUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIViewController.m; sourceTree = "<group>"; };
+		024C217814B430030038C038 /* MyUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyUIViewController.xib; sourceTree = "<group>"; };
+		024C217C14B447640038C038 /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		024C217D14B447640038C038 /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		024C217E14B447640038C038 /* NotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		027E3B4E14BADDD500C68C03 /* apns-dev-cert.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "apns-dev-cert.pem"; sourceTree = "<group>"; };
+		027E3B4F14BADDD500C68C03 /* apns-dev-key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "apns-dev-key.pem"; sourceTree = "<group>"; };
+		027E3B5014BADDD500C68C03 /* aps_developer_identity.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = aps_developer_identity.cer; sourceTree = "<group>"; };
+		027E3B5414BADDD500C68C03 /* RemoteNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteNotification.h; sourceTree = "<group>"; };
+		027E3B5514BADDD500C68C03 /* RemoteNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteNotification.m; sourceTree = "<group>"; };
+		027E3B5614BADDD500C68C03 /* SSLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLHelper.h; sourceTree = "<group>"; };
+		027E3B5714BADDD500C68C03 /* SSLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLHelper.m; sourceTree = "<group>"; };
+		027E3B7314BAE6C400C68C03 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		027E3B7414BAE6C400C68C03 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		020E67A014B2E3C900653F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0216DD5F14BACE9F0003540E /* libz.dylib in Frameworks */,
+				027E3B7E14BAE81B00C68C03 /* CoreGraphics.framework in Frameworks */,
+				027E3B7F14BAE82900C68C03 /* libcrypto.a in Frameworks */,
+				027E3B8014BAE82B00C68C03 /* libssl.a in Frameworks */,
+				027E3B7C14BAE81600C68C03 /* UIKit.framework in Frameworks */,
+				027E3B7714BAE7E900C68C03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020E679814B2E3C900653F49 = {
+			isa = PBXGroup;
+			children = (
+				0216DD5E14BACE9F0003540E /* libz.dylib */,
+				020E67AD14B2E3C900653F49 /* MVCPush */,
+				020E67A614B2E3C900653F49 /* Frameworks */,
+				020E67A414B2E3C900653F49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		020E67A414B2E3C900653F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				020E67A314B2E3C900653F49 /* MVCPush.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		020E67A614B2E3C900653F49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0216DD5514BACE260003540E /* Foundation.framework */,
+				020E67A714B2E3C900653F49 /* UIKit.framework */,
+				020E67AB14B2E3C900653F49 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		020E67AD14B2E3C900653F49 /* MVCPush */ = {
+			isa = PBXGroup;
+			children = (
+				027E3B7214BAE6C400C68C03 /* lib */,
+				027E3B4C14BADDD500C68C03 /* ssl */,
+				024C217B14B447500038C038 /* Notification */,
+				024C216A14B42F3B0038C038 /* MVC */,
+				024C216B14B42F3B0038C038 /* PUSH */,
+				020E67B614B2E3C900653F49 /* MVCAppDelegate.h */,
+				020E67B714B2E3C900653F49 /* MVCAppDelegate.m */,
+				020E67B914B2E3C900653F49 /* MVCMasterViewController.h */,
+				020E67BA14B2E3C900653F49 /* MVCMasterViewController.m */,
+				020E67BF14B2E3C900653F49 /* MVCMasterViewController.xib */,
+				020E67AE14B2E3C900653F49 /* Supporting Files */,
+				020E67CD14B2E47800653F49 /* MVCViewController.h */,
+				020E67CE14B2E47800653F49 /* MVCViewController.m */,
+				020E67CF14B2E47800653F49 /* MVCViewController.xib */,
+				020E67D214B2E48900653F49 /* PushViewController.h */,
+				020E67D314B2E48900653F49 /* PushViewController.m */,
+				020E67D414B2E48900653F49 /* PushViewController.xib */,
+			);
+			path = MVCPush;
+			sourceTree = "<group>";
+		};
+		020E67AE14B2E3C900653F49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				020E67AF14B2E3C900653F49 /* MVCPush-Info.plist */,
+				020E67B014B2E3C900653F49 /* InfoPlist.strings */,
+				020E67B314B2E3C900653F49 /* main.m */,
+				020E67B514B2E3C900653F49 /* MVCPush-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		024C216A14B42F3B0038C038 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				024C217014B42F770038C038 /* MyUIView.h */,
+				024C217114B42F770038C038 /* MyUIView.m */,
+				024C217314B42FA70038C038 /* MyUIViewDelegate.h */,
+				024C217414B42FA70038C038 /* MyUIViewDelegate.m */,
+				024C217614B430030038C038 /* MyUIViewController.h */,
+				024C217714B430030038C038 /* MyUIViewController.m */,
+				024C217814B430030038C038 /* MyUIViewController.xib */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		024C216B14B42F3B0038C038 /* PUSH */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PUSH;
+			sourceTree = "<group>";
+		};
+		024C217B14B447500038C038 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				024C217C14B447640038C038 /* NotificationViewController.h */,
+				024C217D14B447640038C038 /* NotificationViewController.m */,
+				024C217E14B447640038C038 /* NotificationViewController.xib */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		027E3B4C14BADDD500C68C03 /* ssl */ = {
+			isa = PBXGroup;
+			children = (
+				027E3B4D14BADDD500C68C03 /* certs */,
+				027E3B5414BADDD500C68C03 /* RemoteNotification.h */,
+				027E3B5514BADDD500C68C03 /* RemoteNotification.m */,
+				027E3B5614BADDD500C68C03 /* SSLHelper.h */,
+				027E3B5714BADDD500C68C03 /* SSLHelper.m */,
+			);
+			path = ssl;
+			sourceTree = "<group>";
+		};
+		027E3B4D14BADDD500C68C03 /* certs */ = {
+			isa = PBXGroup;
+			children = (
+				027E3B4E14BADDD500C68C03 /* apns-dev-cert.pem */,
+				027E3B4F14BADDD500C68C03 /* apns-dev-key.pem */,
+				027E3B5014BADDD500C68C03 /* aps_developer_identity.cer */,
+			);
+			path = certs;
+			sourceTree = "<group>";
+		};
+		027E3B7214BAE6C400C68C03 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				027E3B7314BAE6C400C68C03 /* libcrypto.a */,
+				027E3B7414BAE6C400C68C03 /* libssl.a */,
+			);
+			path = lib;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		020E67A214B2E3C900653F49 /* MVCPush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020E67C714B2E3C900653F49 /* Build configuration list for PBXNativeTarget "MVCPush" */;
+			buildPhases = (
+				020E679F14B2E3C900653F49 /* Sources */,
+				020E67A014B2E3C900653F49 /* Frameworks */,
+				020E67A114B2E3C900653F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVCPush;
+			productName = MVCPush;
+			productReference = 020E67A314B2E3C900653F49 /* MVCPush.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		020E679A14B2E3C900653F49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 020E679D14B2E3C900653F49 /* Build configuration list for PBXProject "MVCPush" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 020E679814B2E3C900653F49;
+			productRefGroup = 020E67A414B2E3C900653F49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				020E67A214B2E3C900653F49 /* MVCPush */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		020E67A114B2E3C900653F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020E67B214B2E3C900653F49 /* InfoPlist.strings in Resources */,
+				020E67C114B2E3C900653F49 /* MVCMasterViewController.xib in Resources */,
+				020E67D114B2E47900653F49 /* MVCViewController.xib in Resources */,
+				020E67D614B2E48900653F49 /* PushViewController.xib in Resources */,
+				024C217A14B430030038C038 /* MyUIViewController.xib in Resources */,
+				024C218014B447640038C038 /* NotificationViewController.xib in Resources */,
+				027E3B5814BADDD500C68C03 /* apns-dev-cert.pem in Resources */,
+				027E3B5914BADDD500C68C03 /* apns-dev-key.pem in Resources */,
+				027E3B5A14BADDD500C68C03 /* aps_developer_identity.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		020E679F14B2E3C900653F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020E67B414B2E3C900653F49 /* main.m in Sources */,
+				020E67B814B2E3C900653F49 /* MVCAppDelegate.m in Sources */,
+				020E67BB14B2E3C900653F49 /* MVCMasterViewController.m in Sources */,
+				020E67D014B2E47900653F49 /* MVCViewController.m in Sources */,
+				020E67D514B2E48900653F49 /* PushViewController.m in Sources */,
+				024C217214B42F770038C038 /* MyUIView.m in Sources */,
+				024C217514B42FA70038C038 /* MyUIViewDelegate.m in Sources */,
+				024C217914B430030038C038 /* MyUIViewController.m in Sources */,
+				024C217F14B447640038C038 /* NotificationViewController.m in Sources */,
+				027E3B5D14BADDD500C68C03 /* RemoteNotification.m in Sources */,
+				027E3B5E14BADDD500C68C03 /* SSLHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		020E67B014B2E3C900653F49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020E67B114B2E3C900653F49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		020E67BF14B2E3C900653F49 /* MVCMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020E67C014B2E3C900653F49 /* en */,
+			);
+			name = MVCMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		020E67C514B2E3C900653F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		020E67C614B2E3C900653F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		020E67C814B2E3C900653F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVCPush/MVCPush-Prefix.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = include;
+				INFOPLIST_FILE = "MVCPush/MVCPush-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MVCPush/ssl/lib\"",
+					"\"$(SRCROOT)/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		020E67C914B2E3C900653F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVCPush/MVCPush-Prefix.pch";
+				GCC_VERSION = "";
+				HEADER_SEARCH_PATHS = include;
+				INFOPLIST_FILE = "MVCPush/MVCPush-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MVCPush/ssl/lib\"",
+					"\"$(SRCROOT)/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = "armv6 armv7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		020E679D14B2E3C900653F49 /* Build configuration list for PBXProject "MVCPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020E67C514B2E3C900653F49 /* Debug */,
+				020E67C614B2E3C900653F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020E67C714B2E3C900653F49 /* Build configuration list for PBXNativeTarget "MVCPush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020E67C814B2E3C900653F49 /* Debug */,
+				020E67C914B2E3C900653F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 020E679A14B2E3C900653F49 /* Project object */;
+}

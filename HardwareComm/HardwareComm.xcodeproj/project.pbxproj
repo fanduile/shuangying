@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020C90401486397D0071B108 /* button_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 020C903F1486397D0071B108 /* button_gray.png */; };
+		020C904514864BB50071B108 /* AccelerometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020C904314864BB50071B108 /* AccelerometerViewController.m */; };
+		020C904614864BB50071B108 /* AccelerometerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020C904414864BB50071B108 /* AccelerometerViewController.xib */; };
+		020C904C148656A20071B108 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020C904B148656A20071B108 /* CoreMotion.framework */; };
+		020C9051148656E60071B108 /* CoreMotionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020C904F148656E60071B108 /* CoreMotionViewController.m */; };
+		020C9052148656E60071B108 /* CoreMotionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020C9050148656E60071B108 /* CoreMotionViewController.xib */; };
+		020C905A148662250071B108 /* GatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020C9058148662250071B108 /* GatherViewController.m */; };
+		020C905B148662250071B108 /* GatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020C9059148662250071B108 /* GatherViewController.xib */; };
+		020C9062148663910071B108 /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 020C9061148663910071B108 /* ChineseToPinyin.m */; };
+		020C9065148663E30071B108 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 020C9064148663E30071B108 /* CustomButton.m */; };
+		020C9068148664190071B108 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 020C9066148664190071B108 /* checked.png */; };
+		020C9069148664190071B108 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 020C9067148664190071B108 /* unchecked.png */; };
+		020C906C148665380071B108 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020C906A148665380071B108 /* AddressBook.framework */; };
+		020C906D148665380071B108 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 020C906B148665380071B108 /* AddressBookUI.framework */; };
+		020C9080148697580071B108 /* CommViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 020C907E148697580071B108 /* CommViewController.m */; };
+		020C9081148697580071B108 /* CommViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 020C907F148697580071B108 /* CommViewController.xib */; };
+		021BB6A6148716B900DBD6BC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021BB6A5148716B900DBD6BC /* MessageUI.framework */; };
+		021BB6BE148757C800DBD6BC /* PlayVidioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021BB6BC148757C800DBD6BC /* PlayVidioController.m */; };
+		021BB6BF148757C800DBD6BC /* PlayVidioController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 021BB6BD148757C800DBD6BC /* PlayVidioController.xib */; };
+		021BB6C51487580F00DBD6BC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021BB6C41487580F00DBD6BC /* AVFoundation.framework */; };
+		021BB6C81487581D00DBD6BC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021BB6C61487581D00DBD6BC /* CoreMedia.framework */; };
+		021BB6C91487581D00DBD6BC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021BB6C71487581D00DBD6BC /* MediaPlayer.framework */; };
+		02328CF61484CAD90022017D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02328CF51484CAD90022017D /* UIKit.framework */; };
+		02328CF81484CAD90022017D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02328CF71484CAD90022017D /* Foundation.framework */; };
+		02328CFA1484CAD90022017D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02328CF91484CAD90022017D /* CoreGraphics.framework */; };
+		02328D001484CAD90022017D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02328CFE1484CAD90022017D /* InfoPlist.strings */; };
+		02328D021484CAD90022017D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02328D011484CAD90022017D /* main.m */; };
+		02328D061484CAD90022017D /* HardwareCommAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02328D051484CAD90022017D /* HardwareCommAppDelegate.m */; };
+		02328D091484CAD90022017D /* HardwareCommViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02328D081484CAD90022017D /* HardwareCommViewController.m */; };
+		02328D0C1484CAD90022017D /* HardwareCommViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02328D0A1484CAD90022017D /* HardwareCommViewController.xib */; };
+		02328D191484CD620022017D /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02328D171484CD620022017D /* CameraViewController.m */; };
+		02328D1A1484CD620022017D /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02328D181484CD620022017D /* CameraViewController.xib */; };
+		02328D211484DC9B0022017D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02328D201484DC9B0022017D /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020C903F1486397D0071B108 /* button_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_gray.png; sourceTree = "<group>"; };
+		020C904214864BB50071B108 /* AccelerometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerViewController.h; sourceTree = "<group>"; };
+		020C904314864BB50071B108 /* AccelerometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerViewController.m; sourceTree = "<group>"; };
+		020C904414864BB50071B108 /* AccelerometerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccelerometerViewController.xib; sourceTree = "<group>"; };
+		020C904B148656A20071B108 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		020C904E148656E60071B108 /* CoreMotionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreMotionViewController.h; sourceTree = "<group>"; };
+		020C904F148656E60071B108 /* CoreMotionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreMotionViewController.m; sourceTree = "<group>"; };
+		020C9050148656E60071B108 /* CoreMotionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreMotionViewController.xib; sourceTree = "<group>"; };
+		020C9057148662250071B108 /* GatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GatherViewController.h; sourceTree = "<group>"; };
+		020C9058148662250071B108 /* GatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GatherViewController.m; sourceTree = "<group>"; };
+		020C9059148662250071B108 /* GatherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GatherViewController.xib; sourceTree = "<group>"; };
+		020C9060148663910071B108 /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
+		020C9061148663910071B108 /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
+		020C9063148663E30071B108 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		020C9064148663E30071B108 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		020C9066148664190071B108 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		020C9067148664190071B108 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		020C906A148665380071B108 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		020C906B148665380071B108 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		020C907D148697580071B108 /* CommViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommViewController.h; sourceTree = "<group>"; };
+		020C907E148697580071B108 /* CommViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommViewController.m; sourceTree = "<group>"; };
+		020C907F148697580071B108 /* CommViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommViewController.xib; sourceTree = "<group>"; };
+		021BB6A5148716B900DBD6BC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		021BB6BB148757C800DBD6BC /* PlayVidioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVidioController.h; sourceTree = "<group>"; };
+		021BB6BC148757C800DBD6BC /* PlayVidioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVidioController.m; sourceTree = "<group>"; };
+		021BB6BD148757C800DBD6BC /* PlayVidioController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayVidioController.xib; sourceTree = "<group>"; };
+		021BB6C41487580F00DBD6BC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		021BB6C61487581D00DBD6BC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		021BB6C71487581D00DBD6BC /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		02328CF11484CAD90022017D /* HardwareComm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HardwareComm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02328CF51484CAD90022017D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02328CF71484CAD90022017D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02328CF91484CAD90022017D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02328CFD1484CAD90022017D /* HardwareComm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HardwareComm-Info.plist"; sourceTree = "<group>"; };
+		02328CFF1484CAD90022017D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02328D011484CAD90022017D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02328D031484CAD90022017D /* HardwareComm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HardwareComm-Prefix.pch"; sourceTree = "<group>"; };
+		02328D041484CAD90022017D /* HardwareCommAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HardwareCommAppDelegate.h; sourceTree = "<group>"; };
+		02328D051484CAD90022017D /* HardwareCommAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HardwareCommAppDelegate.m; sourceTree = "<group>"; };
+		02328D071484CAD90022017D /* HardwareCommViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HardwareCommViewController.h; sourceTree = "<group>"; };
+		02328D081484CAD90022017D /* HardwareCommViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HardwareCommViewController.m; sourceTree = "<group>"; };
+		02328D0B1484CAD90022017D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HardwareCommViewController.xib; sourceTree = "<group>"; };
+		02328D161484CD620022017D /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		02328D171484CD620022017D /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		02328D181484CD620022017D /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		02328D201484DC9B0022017D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02328CEE1484CAD90022017D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021BB6C81487581D00DBD6BC /* CoreMedia.framework in Frameworks */,
+				021BB6C91487581D00DBD6BC /* MediaPlayer.framework in Frameworks */,
+				021BB6C51487580F00DBD6BC /* AVFoundation.framework in Frameworks */,
+				021BB6A6148716B900DBD6BC /* MessageUI.framework in Frameworks */,
+				020C906C148665380071B108 /* AddressBook.framework in Frameworks */,
+				020C906D148665380071B108 /* AddressBookUI.framework in Frameworks */,
+				020C904C148656A20071B108 /* CoreMotion.framework in Frameworks */,
+				02328D211484DC9B0022017D /* MobileCoreServices.framework in Frameworks */,
+				02328CF61484CAD90022017D /* UIKit.framework in Frameworks */,
+				02328CF81484CAD90022017D /* Foundation.framework in Frameworks */,
+				02328CFA1484CAD90022017D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020C903E1486397D0071B108 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				020C9066148664190071B108 /* checked.png */,
+				020C9067148664190071B108 /* unchecked.png */,
+				020C903F1486397D0071B108 /* button_gray.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		020C904114864B910071B108 /* Accelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				020C904214864BB50071B108 /* AccelerometerViewController.h */,
+				020C904314864BB50071B108 /* AccelerometerViewController.m */,
+				020C904414864BB50071B108 /* AccelerometerViewController.xib */,
+			);
+			path = Accelerometer;
+			sourceTree = "<group>";
+		};
+		020C904D148656D20071B108 /* CoreMotion */ = {
+			isa = PBXGroup;
+			children = (
+				020C904E148656E60071B108 /* CoreMotionViewController.h */,
+				020C904F148656E60071B108 /* CoreMotionViewController.m */,
+				020C9050148656E60071B108 /* CoreMotionViewController.xib */,
+			);
+			path = CoreMotion;
+			sourceTree = "<group>";
+		};
+		020C907C1486974A0071B108 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				020C907D148697580071B108 /* CommViewController.h */,
+				020C907E148697580071B108 /* CommViewController.m */,
+				020C907F148697580071B108 /* CommViewController.xib */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
+		021BB6BA148757B400DBD6BC /* PlayVideo */ = {
+			isa = PBXGroup;
+			children = (
+				021BB6BB148757C800DBD6BC /* PlayVidioController.h */,
+				021BB6BC148757C800DBD6BC /* PlayVidioController.m */,
+				021BB6BD148757C800DBD6BC /* PlayVidioController.xib */,
+			);
+			path = PlayVideo;
+			sourceTree = "<group>";
+		};
+		02328CE61484CAD80022017D = {
+			isa = PBXGroup;
+			children = (
+				021BB6C61487581D00DBD6BC /* CoreMedia.framework */,
+				021BB6C71487581D00DBD6BC /* MediaPlayer.framework */,
+				021BB6C41487580F00DBD6BC /* AVFoundation.framework */,
+				021BB6A5148716B900DBD6BC /* MessageUI.framework */,
+				020C906A148665380071B108 /* AddressBook.framework */,
+				020C906B148665380071B108 /* AddressBookUI.framework */,
+				020C904B148656A20071B108 /* CoreMotion.framework */,
+				02328D201484DC9B0022017D /* MobileCoreServices.framework */,
+				02328CFB1484CAD90022017D /* HardwareComm */,
+				02328CF41484CAD90022017D /* Frameworks */,
+				02328CF21484CAD90022017D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02328CF21484CAD90022017D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02328CF11484CAD90022017D /* HardwareComm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02328CF41484CAD90022017D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02328CF51484CAD90022017D /* UIKit.framework */,
+				02328CF71484CAD90022017D /* Foundation.framework */,
+				02328CF91484CAD90022017D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02328CFB1484CAD90022017D /* HardwareComm */ = {
+			isa = PBXGroup;
+			children = (
+				021BB6BA148757B400DBD6BC /* PlayVideo */,
+				020C907C1486974A0071B108 /* Communication */,
+				020C904D148656D20071B108 /* CoreMotion */,
+				020C904114864B910071B108 /* Accelerometer */,
+				020C903E1486397D0071B108 /* Images */,
+				02328D121484CD510022017D /* AddressBook */,
+				02328D151484CD510022017D /* Camera */,
+				02328D041484CAD90022017D /* HardwareCommAppDelegate.h */,
+				02328D051484CAD90022017D /* HardwareCommAppDelegate.m */,
+				02328D071484CAD90022017D /* HardwareCommViewController.h */,
+				02328D081484CAD90022017D /* HardwareCommViewController.m */,
+				02328D0A1484CAD90022017D /* HardwareCommViewController.xib */,
+				02328CFC1484CAD90022017D /* Supporting Files */,
+			);
+			path = HardwareComm;
+			sourceTree = "<group>";
+		};
+		02328CFC1484CAD90022017D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02328CFD1484CAD90022017D /* HardwareComm-Info.plist */,
+				02328CFE1484CAD90022017D /* InfoPlist.strings */,
+				02328D011484CAD90022017D /* main.m */,
+				02328D031484CAD90022017D /* HardwareComm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02328D121484CD510022017D /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				020C9063148663E30071B108 /* CustomButton.h */,
+				020C9064148663E30071B108 /* CustomButton.m */,
+				020C9060148663910071B108 /* ChineseToPinyin.h */,
+				020C9061148663910071B108 /* ChineseToPinyin.m */,
+				020C9057148662250071B108 /* GatherViewController.h */,
+				020C9058148662250071B108 /* GatherViewController.m */,
+				020C9059148662250071B108 /* GatherViewController.xib */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		02328D151484CD510022017D /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				02328D161484CD620022017D /* CameraViewController.h */,
+				02328D171484CD620022017D /* CameraViewController.m */,
+				02328D181484CD620022017D /* CameraViewController.xib */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02328CF01484CAD90022017D /* HardwareComm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02328D0F1484CAD90022017D /* Build configuration list for PBXNativeTarget "HardwareComm" */;
+			buildPhases = (
+				02328CED1484CAD90022017D /* Sources */,
+				02328CEE1484CAD90022017D /* Frameworks */,
+				02328CEF1484CAD90022017D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HardwareComm;
+			productName = HardwareComm;
+			productReference = 02328CF11484CAD90022017D /* HardwareComm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02328CE81484CAD80022017D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 02328CEB1484CAD80022017D /* Build configuration list for PBXProject "HardwareComm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02328CE61484CAD80022017D;
+			productRefGroup = 02328CF21484CAD90022017D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02328CF01484CAD90022017D /* HardwareComm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02328CEF1484CAD90022017D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02328D001484CAD90022017D /* InfoPlist.strings in Resources */,
+				02328D0C1484CAD90022017D /* HardwareCommViewController.xib in Resources */,
+				02328D1A1484CD620022017D /* CameraViewController.xib in Resources */,
+				020C90401486397D0071B108 /* button_gray.png in Resources */,
+				020C904614864BB50071B108 /* AccelerometerViewController.xib in Resources */,
+				020C9052148656E60071B108 /* CoreMotionViewController.xib in Resources */,
+				020C905B148662250071B108 /* GatherViewController.xib in Resources */,
+				020C9068148664190071B108 /* checked.png in Resources */,
+				020C9069148664190071B108 /* unchecked.png in Resources */,
+				020C9081148697580071B108 /* CommViewController.xib in Resources */,
+				021BB6BF148757C800DBD6BC /* PlayVidioController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02328CED1484CAD90022017D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02328D021484CAD90022017D /* main.m in Sources */,
+				02328D061484CAD90022017D /* HardwareCommAppDelegate.m in Sources */,
+				02328D091484CAD90022017D /* HardwareCommViewController.m in Sources */,
+				02328D191484CD620022017D /* CameraViewController.m in Sources */,
+				020C904514864BB50071B108 /* AccelerometerViewController.m in Sources */,
+				020C9051148656E60071B108 /* CoreMotionViewController.m in Sources */,
+				020C905A148662250071B108 /* GatherViewController.m in Sources */,
+				020C9062148663910071B108 /* ChineseToPinyin.m in Sources */,
+				020C9065148663E30071B108 /* CustomButton.m in Sources */,
+				020C9080148697580071B108 /* CommViewController.m in Sources */,
+				021BB6BE148757C800DBD6BC /* PlayVidioController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02328CFE1484CAD90022017D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02328CFF1484CAD90022017D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02328D0A1484CAD90022017D /* HardwareCommViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02328D0B1484CAD90022017D /* en */,
+			);
+			name = HardwareCommViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02328D0D1484CAD90022017D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: dongyan Chen (9VKXKF46U7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dongyan Chen (9VKXKF46U7)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PROVISIONING_PROFILE = "8FD40ACD-4B1B-4225-8A13-DA6F26C9505D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8FD40ACD-4B1B-4225-8A13-DA6F26C9505D";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02328D0E1484CAD90022017D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: dongyan Chen (9VKXKF46U7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dongyan Chen (9VKXKF46U7)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "8FD40ACD-4B1B-4225-8A13-DA6F26C9505D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8FD40ACD-4B1B-4225-8A13-DA6F26C9505D";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02328D101484CAD90022017D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: dongyan Chen (9VKXKF46U7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dongyan Chen (9VKXKF46U7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HardwareComm/HardwareComm-Prefix.pch";
+				INFOPLIST_FILE = "HardwareComm/HardwareComm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8FD40ACD-4B1B-4225-8A13-DA6F26C9505D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8FD40ACD-4B1B-4225-8A13-DA6F26C9505D";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02328D111484CAD90022017D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: dongyan Chen (9VKXKF46U7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: dongyan Chen (9VKXKF46U7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HardwareComm/HardwareComm-Prefix.pch";
+				INFOPLIST_FILE = "HardwareComm/HardwareComm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8FD40ACD-4B1B-4225-8A13-DA6F26C9505D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8FD40ACD-4B1B-4225-8A13-DA6F26C9505D";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02328CEB1484CAD80022017D /* Build configuration list for PBXProject "HardwareComm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02328D0D1484CAD90022017D /* Debug */,
+				02328D0E1484CAD90022017D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02328D0F1484CAD90022017D /* Build configuration list for PBXNativeTarget "HardwareComm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02328D101484CAD90022017D /* Debug */,
+				02328D111484CAD90022017D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02328CE81484CAD80022017D /* Project object */;
+}

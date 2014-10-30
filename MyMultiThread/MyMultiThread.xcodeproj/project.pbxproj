@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0236685C14E4CCD800B57BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0236685B14E4CCD800B57BDA /* UIKit.framework */; };
+		0236685E14E4CCD800B57BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0236685D14E4CCD800B57BDA /* Foundation.framework */; };
+		0236686014E4CCD800B57BDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0236685F14E4CCD800B57BDA /* CoreGraphics.framework */; };
+		0236686614E4CCD800B57BDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0236686414E4CCD800B57BDA /* InfoPlist.strings */; };
+		0236686814E4CCD800B57BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0236686714E4CCD800B57BDA /* main.m */; };
+		0236686C14E4CCD800B57BDA /* MultiThreadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0236686B14E4CCD800B57BDA /* MultiThreadAppDelegate.m */; };
+		0236686F14E4CCD800B57BDA /* MultiThreadMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0236686E14E4CCD800B57BDA /* MultiThreadMasterViewController.m */; };
+		0236687214E4CCD800B57BDA /* MultiThreadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0236687114E4CCD800B57BDA /* MultiThreadDetailViewController.m */; };
+		0236687514E4CCD800B57BDA /* MultiThreadMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0236687314E4CCD800B57BDA /* MultiThreadMasterViewController.xib */; };
+		0236687814E4CCD800B57BDA /* MultiThreadDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0236687614E4CCD800B57BDA /* MultiThreadDetailViewController.xib */; };
+		0236689314E4FB7000B57BDA /* OriginThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0236689114E4FB7000B57BDA /* OriginThreadController.m */; };
+		0236689414E4FB7000B57BDA /* OriginThreadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0236689214E4FB7000B57BDA /* OriginThreadController.xib */; };
+		0236689814E51C5D00B57BDA /* NSThreadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0236689614E51C5D00B57BDA /* NSThreadController.m */; };
+		0236689914E51C5D00B57BDA /* NSThreadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0236689714E51C5D00B57BDA /* NSThreadController.xib */; };
+		023668C514E57FF600B57BDA /* NSOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 023668C314E57FF500B57BDA /* NSOperationController.m */; };
+		023668C614E57FF600B57BDA /* NSOperationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 023668C414E57FF500B57BDA /* NSOperationController.xib */; };
+		023668C914E5812F00B57BDA /* MyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 023668C814E5812F00B57BDA /* MyOperation.m */; };
+		023668D414E61A3300B57BDA /* GoodsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 023668D314E61A3300B57BDA /* GoodsData.m */; };
+		023668D714E6237100B57BDA /* LockGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = 023668D614E6237100B57BDA /* LockGoods.m */; };
+		023668DA14E6238000B57BDA /* ConditionGoods.m in Sources */ = {isa = PBXBuildFile; fileRef = 023668D914E6237F00B57BDA /* ConditionGoods.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0236685714E4CCD800B57BDA /* MyMultiThread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMultiThread.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0236685B14E4CCD800B57BDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0236685D14E4CCD800B57BDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0236685F14E4CCD800B57BDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0236686314E4CCD800B57BDA /* MyMultiThread-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyMultiThread-Info.plist"; sourceTree = "<group>"; };
+		0236686514E4CCD800B57BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0236686714E4CCD800B57BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0236686914E4CCD800B57BDA /* MyMultiThread-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyMultiThread-Prefix.pch"; sourceTree = "<group>"; };
+		0236686A14E4CCD800B57BDA /* MultiThreadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadAppDelegate.h; sourceTree = "<group>"; };
+		0236686B14E4CCD800B57BDA /* MultiThreadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiThreadAppDelegate.m; sourceTree = "<group>"; };
+		0236686D14E4CCD800B57BDA /* MultiThreadMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadMasterViewController.h; sourceTree = "<group>"; };
+		0236686E14E4CCD800B57BDA /* MultiThreadMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiThreadMasterViewController.m; sourceTree = "<group>"; };
+		0236687014E4CCD800B57BDA /* MultiThreadDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiThreadDetailViewController.h; sourceTree = "<group>"; };
+		0236687114E4CCD800B57BDA /* MultiThreadDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiThreadDetailViewController.m; sourceTree = "<group>"; };
+		0236687414E4CCD800B57BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MultiThreadMasterViewController.xib; sourceTree = "<group>"; };
+		0236687714E4CCD800B57BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MultiThreadDetailViewController.xib; sourceTree = "<group>"; };
+		0236689014E4FB7000B57BDA /* OriginThreadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OriginThreadController.h; sourceTree = "<group>"; };
+		0236689114E4FB7000B57BDA /* OriginThreadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OriginThreadController.m; sourceTree = "<group>"; };
+		0236689214E4FB7000B57BDA /* OriginThreadController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OriginThreadController.xib; sourceTree = "<group>"; };
+		0236689514E51C5D00B57BDA /* NSThreadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadController.h; sourceTree = "<group>"; };
+		0236689614E51C5D00B57BDA /* NSThreadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadController.m; sourceTree = "<group>"; };
+		0236689714E51C5D00B57BDA /* NSThreadController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSThreadController.xib; sourceTree = "<group>"; };
+		023668C214E57FF500B57BDA /* NSOperationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationController.h; sourceTree = "<group>"; };
+		023668C314E57FF500B57BDA /* NSOperationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationController.m; sourceTree = "<group>"; };
+		023668C414E57FF500B57BDA /* NSOperationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSOperationController.xib; sourceTree = "<group>"; };
+		023668C714E5812F00B57BDA /* MyOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOperation.h; sourceTree = "<group>"; };
+		023668C814E5812F00B57BDA /* MyOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOperation.m; sourceTree = "<group>"; };
+		023668D214E61A3300B57BDA /* GoodsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsData.h; sourceTree = "<group>"; };
+		023668D314E61A3300B57BDA /* GoodsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsData.m; sourceTree = "<group>"; };
+		023668D514E6237100B57BDA /* LockGoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockGoods.h; sourceTree = "<group>"; };
+		023668D614E6237100B57BDA /* LockGoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockGoods.m; sourceTree = "<group>"; };
+		023668D814E6237F00B57BDA /* ConditionGoods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionGoods.h; sourceTree = "<group>"; };
+		023668D914E6237F00B57BDA /* ConditionGoods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionGoods.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0236685414E4CCD800B57BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0236685C14E4CCD800B57BDA /* UIKit.framework in Frameworks */,
+				0236685E14E4CCD800B57BDA /* Foundation.framework in Frameworks */,
+				0236686014E4CCD800B57BDA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0236684C14E4CCD800B57BDA = {
+			isa = PBXGroup;
+			children = (
+				0236686114E4CCD800B57BDA /* MyMultiThread */,
+				0236685A14E4CCD800B57BDA /* Frameworks */,
+				0236685814E4CCD800B57BDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0236685814E4CCD800B57BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0236685714E4CCD800B57BDA /* MyMultiThread.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0236685A14E4CCD800B57BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0236685B14E4CCD800B57BDA /* UIKit.framework */,
+				0236685D14E4CCD800B57BDA /* Foundation.framework */,
+				0236685F14E4CCD800B57BDA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0236686114E4CCD800B57BDA /* MyMultiThread */ = {
+			isa = PBXGroup;
+			children = (
+				0236686A14E4CCD800B57BDA /* MultiThreadAppDelegate.h */,
+				0236686B14E4CCD800B57BDA /* MultiThreadAppDelegate.m */,
+				0236686D14E4CCD800B57BDA /* MultiThreadMasterViewController.h */,
+				0236686E14E4CCD800B57BDA /* MultiThreadMasterViewController.m */,
+				0236687314E4CCD800B57BDA /* MultiThreadMasterViewController.xib */,
+				0236687014E4CCD800B57BDA /* MultiThreadDetailViewController.h */,
+				0236687114E4CCD800B57BDA /* MultiThreadDetailViewController.m */,
+				0236687614E4CCD800B57BDA /* MultiThreadDetailViewController.xib */,
+				0236689014E4FB7000B57BDA /* OriginThreadController.h */,
+				0236689114E4FB7000B57BDA /* OriginThreadController.m */,
+				0236689214E4FB7000B57BDA /* OriginThreadController.xib */,
+				0236689514E51C5D00B57BDA /* NSThreadController.h */,
+				0236689614E51C5D00B57BDA /* NSThreadController.m */,
+				0236689714E51C5D00B57BDA /* NSThreadController.xib */,
+				023668C214E57FF500B57BDA /* NSOperationController.h */,
+				023668C314E57FF500B57BDA /* NSOperationController.m */,
+				023668C414E57FF500B57BDA /* NSOperationController.xib */,
+				0236686214E4CCD800B57BDA /* Supporting Files */,
+				023668C714E5812F00B57BDA /* MyOperation.h */,
+				023668C814E5812F00B57BDA /* MyOperation.m */,
+				023668D214E61A3300B57BDA /* GoodsData.h */,
+				023668D314E61A3300B57BDA /* GoodsData.m */,
+				023668D514E6237100B57BDA /* LockGoods.h */,
+				023668D614E6237100B57BDA /* LockGoods.m */,
+				023668D814E6237F00B57BDA /* ConditionGoods.h */,
+				023668D914E6237F00B57BDA /* ConditionGoods.m */,
+			);
+			path = MyMultiThread;
+			sourceTree = "<group>";
+		};
+		0236686214E4CCD800B57BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0236686314E4CCD800B57BDA /* MyMultiThread-Info.plist */,
+				0236686414E4CCD800B57BDA /* InfoPlist.strings */,
+				0236686714E4CCD800B57BDA /* main.m */,
+				0236686914E4CCD800B57BDA /* MyMultiThread-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0236685614E4CCD800B57BDA /* MyMultiThread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0236687B14E4CCD800B57BDA /* Build configuration list for PBXNativeTarget "MyMultiThread" */;
+			buildPhases = (
+				0236685314E4CCD800B57BDA /* Sources */,
+				0236685414E4CCD800B57BDA /* Frameworks */,
+				0236685514E4CCD800B57BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMultiThread;
+			productName = MyMultiThread;
+			productReference = 0236685714E4CCD800B57BDA /* MyMultiThread.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0236684E14E4CCD800B57BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0236685114E4CCD800B57BDA /* Build configuration list for PBXProject "MyMultiThread" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0236684C14E4CCD800B57BDA;
+			productRefGroup = 0236685814E4CCD800B57BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0236685614E4CCD800B57BDA /* MyMultiThread */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0236685514E4CCD800B57BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0236686614E4CCD800B57BDA /* InfoPlist.strings in Resources */,
+				0236687514E4CCD800B57BDA /* MultiThreadMasterViewController.xib in Resources */,
+				0236687814E4CCD800B57BDA /* MultiThreadDetailViewController.xib in Resources */,
+				0236689414E4FB7000B57BDA /* OriginThreadController.xib in Resources */,
+				0236689914E51C5D00B57BDA /* NSThreadController.xib in Resources */,
+				023668C614E57FF600B57BDA /* NSOperationController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0236685314E4CCD800B57BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0236686814E4CCD800B57BDA /* main.m in Sources */,
+				0236686C14E4CCD800B57BDA /* MultiThreadAppDelegate.m in Sources */,
+				0236686F14E4CCD800B57BDA /* MultiThreadMasterViewController.m in Sources */,
+				0236687214E4CCD800B57BDA /* MultiThreadDetailViewController.m in Sources */,
+				0236689314E4FB7000B57BDA /* OriginThreadController.m in Sources */,
+				0236689814E51C5D00B57BDA /* NSThreadController.m in Sources */,
+				023668C514E57FF600B57BDA /* NSOperationController.m in Sources */,
+				023668C914E5812F00B57BDA /* MyOperation.m in Sources */,
+				023668D414E61A3300B57BDA /* GoodsData.m in Sources */,
+				023668D714E6237100B57BDA /* LockGoods.m in Sources */,
+				023668DA14E6238000B57BDA /* ConditionGoods.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0236686414E4CCD800B57BDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0236686514E4CCD800B57BDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0236687314E4CCD800B57BDA /* MultiThreadMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0236687414E4CCD800B57BDA /* en */,
+			);
+			name = MultiThreadMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		0236687614E4CCD800B57BDA /* MultiThreadDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0236687714E4CCD800B57BDA /* en */,
+			);
+			name = MultiThreadDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0236687914E4CCD800B57BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0236687A14E4CCD800B57BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0236687C14E4CCD800B57BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyMultiThread/MyMultiThread-Prefix.pch";
+				INFOPLIST_FILE = "MyMultiThread/MyMultiThread-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0236687D14E4CCD800B57BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyMultiThread/MyMultiThread-Prefix.pch";
+				INFOPLIST_FILE = "MyMultiThread/MyMultiThread-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0236685114E4CCD800B57BDA /* Build configuration list for PBXProject "MyMultiThread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0236687914E4CCD800B57BDA /* Debug */,
+				0236687A14E4CCD800B57BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0236687B14E4CCD800B57BDA /* Build configuration list for PBXNativeTarget "MyMultiThread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0236687C14E4CCD800B57BDA /* Debug */,
+				0236687D14E4CCD800B57BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0236684E14E4CCD800B57BDA /* Project object */;
+}

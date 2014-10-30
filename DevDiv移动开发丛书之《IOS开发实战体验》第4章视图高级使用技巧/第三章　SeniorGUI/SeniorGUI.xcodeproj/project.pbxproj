@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02504E34146A5C6700186B18 /* SearchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 02504E33146A5C6700186B18 /* SearchButton.m */; };
+		02762063146A205500107867 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02762062146A205500107867 /* UIKit.framework */; };
+		02762065146A205500107867 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02762064146A205500107867 /* Foundation.framework */; };
+		02762067146A205500107867 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02762066146A205500107867 /* CoreGraphics.framework */; };
+		0276206D146A205500107867 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0276206B146A205500107867 /* InfoPlist.strings */; };
+		0276206F146A205500107867 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0276206E146A205500107867 /* main.m */; };
+		02762073146A205500107867 /* CustomAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02762072146A205500107867 /* CustomAppDelegate.m */; };
+		02762076146A205500107867 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02762075146A205500107867 /* CustomViewController.m */; };
+		02762079146A205600107867 /* CustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02762077146A205600107867 /* CustomViewController.xib */; };
+		02762086146A2B2D00107867 /* button_search_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 02762084146A2B2D00107867 /* button_search_normal.png */; };
+		02762087146A2B2D00107867 /* button_search_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 02762085146A2B2D00107867 /* button_search_selected.png */; };
+		02A9F10D146A6F6F0092B974 /* CheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A9F10C146A6F6F0092B974 /* CheckBox.m */; };
+		02A9F115146A72070092B974 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 02A9F113146A72070092B974 /* checked.png */; };
+		02A9F116146A72070092B974 /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 02A9F114146A72070092B974 /* uncheck.png */; };
+		02A9F126146A93070092B974 /* RealToolPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A9F124146A93070092B974 /* RealToolPickerViewController.m */; };
+		02A9F127146A93070092B974 /* RealToolPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02A9F125146A93070092B974 /* RealToolPickerViewController.xib */; };
+		02E2F8B5146B557800CE8E16 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02E2F8B3146B557800CE8E16 /* AnimationViewController.m */; };
+		02E2F8B6146B557800CE8E16 /* AnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02E2F8B4146B557800CE8E16 /* AnimationViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02504E32146A5C6700186B18 /* SearchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchButton.h; sourceTree = "<group>"; };
+		02504E33146A5C6700186B18 /* SearchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchButton.m; sourceTree = "<group>"; };
+		0276205E146A205500107867 /* SeniorGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeniorGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02762062146A205500107867 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02762064146A205500107867 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02762066146A205500107867 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0276206A146A205500107867 /* SeniorGUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SeniorGUI-Info.plist"; sourceTree = "<group>"; };
+		0276206C146A205500107867 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0276206E146A205500107867 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02762070146A205500107867 /* SeniorGUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SeniorGUI-Prefix.pch"; sourceTree = "<group>"; };
+		02762071146A205500107867 /* CustomAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAppDelegate.h; sourceTree = "<group>"; };
+		02762072146A205500107867 /* CustomAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAppDelegate.m; sourceTree = "<group>"; };
+		02762074146A205500107867 /* CustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		02762075146A205500107867 /* CustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		02762078146A205600107867 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CustomViewController.xib; sourceTree = "<group>"; };
+		02762084146A2B2D00107867 /* button_search_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_search_normal.png; sourceTree = "<group>"; };
+		02762085146A2B2D00107867 /* button_search_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_search_selected.png; sourceTree = "<group>"; };
+		02A9F10B146A6F6F0092B974 /* CheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBox.h; sourceTree = "<group>"; };
+		02A9F10C146A6F6F0092B974 /* CheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBox.m; sourceTree = "<group>"; };
+		02A9F113146A72070092B974 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		02A9F114146A72070092B974 /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck.png; sourceTree = "<group>"; };
+		02A9F123146A93070092B974 /* RealToolPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealToolPickerViewController.h; sourceTree = "<group>"; };
+		02A9F124146A93070092B974 /* RealToolPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealToolPickerViewController.m; sourceTree = "<group>"; };
+		02A9F125146A93070092B974 /* RealToolPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RealToolPickerViewController.xib; sourceTree = "<group>"; };
+		02E2F8B2146B557800CE8E16 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		02E2F8B3146B557800CE8E16 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		02E2F8B4146B557800CE8E16 /* AnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnimationViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0276205B146A205500107867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02762063146A205500107867 /* UIKit.framework in Frameworks */,
+				02762065146A205500107867 /* Foundation.framework in Frameworks */,
+				02762067146A205500107867 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02762053146A205500107867 = {
+			isa = PBXGroup;
+			children = (
+				02762083146A2B2D00107867 /* Images */,
+				02762068146A205500107867 /* SeniorGUI */,
+				02762061146A205500107867 /* Frameworks */,
+				0276205F146A205500107867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0276205F146A205500107867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0276205E146A205500107867 /* SeniorGUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02762061146A205500107867 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02762062146A205500107867 /* UIKit.framework */,
+				02762064146A205500107867 /* Foundation.framework */,
+				02762066146A205500107867 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02762068146A205500107867 /* SeniorGUI */ = {
+			isa = PBXGroup;
+			children = (
+				02A9F123146A93070092B974 /* RealToolPickerViewController.h */,
+				02A9F124146A93070092B974 /* RealToolPickerViewController.m */,
+				02A9F125146A93070092B974 /* RealToolPickerViewController.xib */,
+				02762071146A205500107867 /* CustomAppDelegate.h */,
+				02762072146A205500107867 /* CustomAppDelegate.m */,
+				02762074146A205500107867 /* CustomViewController.h */,
+				02762075146A205500107867 /* CustomViewController.m */,
+				02762077146A205600107867 /* CustomViewController.xib */,
+				02762069146A205500107867 /* Supporting Files */,
+				02504E32146A5C6700186B18 /* SearchButton.h */,
+				02504E33146A5C6700186B18 /* SearchButton.m */,
+				02A9F10B146A6F6F0092B974 /* CheckBox.h */,
+				02A9F10C146A6F6F0092B974 /* CheckBox.m */,
+				02E2F8B2146B557800CE8E16 /* AnimationViewController.h */,
+				02E2F8B3146B557800CE8E16 /* AnimationViewController.m */,
+				02E2F8B4146B557800CE8E16 /* AnimationViewController.xib */,
+			);
+			path = SeniorGUI;
+			sourceTree = "<group>";
+		};
+		02762069146A205500107867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0276206A146A205500107867 /* SeniorGUI-Info.plist */,
+				0276206B146A205500107867 /* InfoPlist.strings */,
+				0276206E146A205500107867 /* main.m */,
+				02762070146A205500107867 /* SeniorGUI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02762083146A2B2D00107867 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				02A9F113146A72070092B974 /* checked.png */,
+				02A9F114146A72070092B974 /* uncheck.png */,
+				02762084146A2B2D00107867 /* button_search_normal.png */,
+				02762085146A2B2D00107867 /* button_search_selected.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0276205D146A205500107867 /* SeniorGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0276207C146A205600107867 /* Build configuration list for PBXNativeTarget "SeniorGUI" */;
+			buildPhases = (
+				0276205A146A205500107867 /* Sources */,
+				0276205B146A205500107867 /* Frameworks */,
+				0276205C146A205500107867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeniorGUI;
+			productName = SeniorGUI;
+			productReference = 0276205E146A205500107867 /* SeniorGUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02762055146A205500107867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 02762058146A205500107867 /* Build configuration list for PBXProject "SeniorGUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02762053146A205500107867;
+			productRefGroup = 0276205F146A205500107867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0276205D146A205500107867 /* SeniorGUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0276205C146A205500107867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0276206D146A205500107867 /* InfoPlist.strings in Resources */,
+				02762079146A205600107867 /* CustomViewController.xib in Resources */,
+				02762086146A2B2D00107867 /* button_search_normal.png in Resources */,
+				02762087146A2B2D00107867 /* button_search_selected.png in Resources */,
+				02A9F115146A72070092B974 /* checked.png in Resources */,
+				02A9F116146A72070092B974 /* uncheck.png in Resources */,
+				02A9F127146A93070092B974 /* RealToolPickerViewController.xib in Resources */,
+				02E2F8B6146B557800CE8E16 /* AnimationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0276205A146A205500107867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0276206F146A205500107867 /* main.m in Sources */,
+				02762073146A205500107867 /* CustomAppDelegate.m in Sources */,
+				02762076146A205500107867 /* CustomViewController.m in Sources */,
+				02504E34146A5C6700186B18 /* SearchButton.m in Sources */,
+				02A9F10D146A6F6F0092B974 /* CheckBox.m in Sources */,
+				02A9F126146A93070092B974 /* RealToolPickerViewController.m in Sources */,
+				02E2F8B5146B557800CE8E16 /* AnimationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0276206B146A205500107867 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0276206C146A205500107867 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		02762077146A205600107867 /* CustomViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02762078146A205600107867 /* en */,
+			);
+			name = CustomViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0276207A146A205600107867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0276207B146A205600107867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0276207D146A205600107867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeniorGUI/SeniorGUI-Prefix.pch";
+				INFOPLIST_FILE = "SeniorGUI/SeniorGUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0276207E146A205600107867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SeniorGUI/SeniorGUI-Prefix.pch";
+				INFOPLIST_FILE = "SeniorGUI/SeniorGUI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02762058146A205500107867 /* Build configuration list for PBXProject "SeniorGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0276207A146A205600107867 /* Debug */,
+				0276207B146A205600107867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0276207C146A205600107867 /* Build configuration list for PBXNativeTarget "SeniorGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0276207D146A205600107867 /* Debug */,
+				0276207E146A205600107867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02762055146A205500107867 /* Project object */;
+}

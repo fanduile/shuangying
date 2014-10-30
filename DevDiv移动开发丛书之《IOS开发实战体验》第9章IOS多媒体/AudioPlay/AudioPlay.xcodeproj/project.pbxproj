@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AAA2B8D14D7E4F4009D20D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAA2B8C14D7E4F4009D20D8 /* UIKit.framework */; };
+		0AAA2B8F14D7E4F4009D20D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAA2B8E14D7E4F4009D20D8 /* Foundation.framework */; };
+		0AAA2B9114D7E4F4009D20D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAA2B9014D7E4F4009D20D8 /* CoreGraphics.framework */; };
+		0AAA2B9714D7E4F4009D20D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AAA2B9514D7E4F4009D20D8 /* InfoPlist.strings */; };
+		0AAA2B9914D7E4F4009D20D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA2B9814D7E4F4009D20D8 /* main.m */; };
+		0AAA2B9D14D7E4F4009D20D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA2B9C14D7E4F4009D20D8 /* AppDelegate.m */; };
+		0AAA2BA014D7E4F4009D20D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA2B9F14D7E4F4009D20D8 /* ViewController.m */; };
+		0AAA2BA314D7E4F4009D20D8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AAA2BA114D7E4F4009D20D8 /* ViewController.xib */; };
+		0AAA2BAA14D7E5A9009D20D8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAA2BA914D7E5A9009D20D8 /* AudioToolbox.framework */; };
+		0AAA2BAC14D7E75F009D20D8 /* push.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0AAA2BAB14D7E75F009D20D8 /* push.wav */; };
+		0AAA2BF614D80BA1009D20D8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAA2BF514D80BA1009D20D8 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0AAA2B8814D7E4F4009D20D8 /* AudioPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AAA2B8C14D7E4F4009D20D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0AAA2B8E14D7E4F4009D20D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0AAA2B9014D7E4F4009D20D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AAA2B9414D7E4F4009D20D8 /* AudioPlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AudioPlay-Info.plist"; sourceTree = "<group>"; };
+		0AAA2B9614D7E4F4009D20D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0AAA2B9814D7E4F4009D20D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AAA2B9A14D7E4F4009D20D8 /* AudioPlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioPlay-Prefix.pch"; sourceTree = "<group>"; };
+		0AAA2B9B14D7E4F4009D20D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AAA2B9C14D7E4F4009D20D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AAA2B9E14D7E4F4009D20D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AAA2B9F14D7E4F4009D20D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AAA2BA214D7E4F4009D20D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0AAA2BA914D7E5A9009D20D8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0AAA2BAB14D7E75F009D20D8 /* push.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = push.wav; sourceTree = "<group>"; };
+		0AAA2BF514D80BA1009D20D8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AAA2B8514D7E4F4009D20D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAA2BF614D80BA1009D20D8 /* AVFoundation.framework in Frameworks */,
+				0AAA2BAA14D7E5A9009D20D8 /* AudioToolbox.framework in Frameworks */,
+				0AAA2B8D14D7E4F4009D20D8 /* UIKit.framework in Frameworks */,
+				0AAA2B8F14D7E4F4009D20D8 /* Foundation.framework in Frameworks */,
+				0AAA2B9114D7E4F4009D20D8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AAA2B7D14D7E4F3009D20D8 = {
+			isa = PBXGroup;
+			children = (
+				0AAA2BF514D80BA1009D20D8 /* AVFoundation.framework */,
+				0AAA2B9214D7E4F4009D20D8 /* AudioPlay */,
+				0AAA2B8B14D7E4F4009D20D8 /* Frameworks */,
+				0AAA2B8914D7E4F4009D20D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AAA2B8914D7E4F4009D20D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AAA2B8814D7E4F4009D20D8 /* AudioPlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AAA2B8B14D7E4F4009D20D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AAA2BA914D7E5A9009D20D8 /* AudioToolbox.framework */,
+				0AAA2B8C14D7E4F4009D20D8 /* UIKit.framework */,
+				0AAA2B8E14D7E4F4009D20D8 /* Foundation.framework */,
+				0AAA2B9014D7E4F4009D20D8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0AAA2B9214D7E4F4009D20D8 /* AudioPlay */ = {
+			isa = PBXGroup;
+			children = (
+				0AAA2B9B14D7E4F4009D20D8 /* AppDelegate.h */,
+				0AAA2B9C14D7E4F4009D20D8 /* AppDelegate.m */,
+				0AAA2B9E14D7E4F4009D20D8 /* ViewController.h */,
+				0AAA2B9F14D7E4F4009D20D8 /* ViewController.m */,
+				0AAA2BA114D7E4F4009D20D8 /* ViewController.xib */,
+				0AAA2B9314D7E4F4009D20D8 /* Supporting Files */,
+			);
+			path = AudioPlay;
+			sourceTree = "<group>";
+		};
+		0AAA2B9314D7E4F4009D20D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AAA2BAB14D7E75F009D20D8 /* push.wav */,
+				0AAA2B9414D7E4F4009D20D8 /* AudioPlay-Info.plist */,
+				0AAA2B9514D7E4F4009D20D8 /* InfoPlist.strings */,
+				0AAA2B9814D7E4F4009D20D8 /* main.m */,
+				0AAA2B9A14D7E4F4009D20D8 /* AudioPlay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AAA2B8714D7E4F4009D20D8 /* AudioPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AAA2BA614D7E4F4009D20D8 /* Build configuration list for PBXNativeTarget "AudioPlay" */;
+			buildPhases = (
+				0AAA2B8414D7E4F4009D20D8 /* Sources */,
+				0AAA2B8514D7E4F4009D20D8 /* Frameworks */,
+				0AAA2B8614D7E4F4009D20D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPlay;
+			productName = AudioPlay;
+			productReference = 0AAA2B8814D7E4F4009D20D8 /* AudioPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AAA2B7F14D7E4F3009D20D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = FH;
+			};
+			buildConfigurationList = 0AAA2B8214D7E4F3009D20D8 /* Build configuration list for PBXProject "AudioPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AAA2B7D14D7E4F3009D20D8;
+			productRefGroup = 0AAA2B8914D7E4F4009D20D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AAA2B8714D7E4F4009D20D8 /* AudioPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AAA2B8614D7E4F4009D20D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAA2B9714D7E4F4009D20D8 /* InfoPlist.strings in Resources */,
+				0AAA2BA314D7E4F4009D20D8 /* ViewController.xib in Resources */,
+				0AAA2BAC14D7E75F009D20D8 /* push.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AAA2B8414D7E4F4009D20D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AAA2B9914D7E4F4009D20D8 /* main.m in Sources */,
+				0AAA2B9D14D7E4F4009D20D8 /* AppDelegate.m in Sources */,
+				0AAA2BA014D7E4F4009D20D8 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AAA2B9514D7E4F4009D20D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AAA2B9614D7E4F4009D20D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0AAA2BA114D7E4F4009D20D8 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AAA2BA214D7E4F4009D20D8 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AAA2BA414D7E4F4009D20D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AAA2BA514D7E4F4009D20D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AAA2BA714D7E4F4009D20D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioPlay/AudioPlay-Prefix.pch";
+				INFOPLIST_FILE = "AudioPlay/AudioPlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0AAA2BA814D7E4F4009D20D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioPlay/AudioPlay-Prefix.pch";
+				INFOPLIST_FILE = "AudioPlay/AudioPlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AAA2B8214D7E4F3009D20D8 /* Build configuration list for PBXProject "AudioPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAA2BA414D7E4F4009D20D8 /* Debug */,
+				0AAA2BA514D7E4F4009D20D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AAA2BA614D7E4F4009D20D8 /* Build configuration list for PBXNativeTarget "AudioPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAA2BA714D7E4F4009D20D8 /* Debug */,
+				0AAA2BA814D7E4F4009D20D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AAA2B7F14D7E4F3009D20D8 /* Project object */;
+}
